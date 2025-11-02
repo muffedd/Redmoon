@@ -1,0 +1,575 @@
+/* Helvetica Now MT Text Font Family */
+@font-face {
+    font-family: 'Helvetica Now MT Text';
+    src: url('HelveticaNowMTText.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Now MT Text';
+    src: url('HelveticaNowMTText_Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Now MT Text';
+    src: url('HelveticaNowMTText_Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Now MT Text', 'Helvetica Neue', Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #ff2300;
+}
+
+/* Desktop Frame (1:2) - 1280x1396 */
+.desktop-frame {
+    position: relative;
+    width: 1280px;
+    height: 1396px;
+    background-color: #ff2300;
+    margin: 0 auto;
+}
+
+/* Logo (1:10) - 71x47 at (98, 63) */
+.logo {
+    position: absolute;
+    left: 98px;
+    top: 63px;
+    width: 71px;
+    height: 47px;
+    z-index: 10;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Navigation Container */
+.navigation {
+    position: absolute;
+    top: 77px;
+    right: 126px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.nav-link {
+    font-size: 40px;
+    font-family: 'Helvetica Now MT Text';
+    font-weight: 400;
+    letter-spacing: 0%;
+    line-height: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: opacity 0.3s, transform 0.3s;
+    position: relative;
+}
+
+.nav-link:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Focus states for accessibility */
+.nav-link:focus,
+.connect-button-text:focus,
+.service-section:focus {
+    outline: 2px solid #ffffff;
+    outline-offset: 4px;
+    border-radius: 4px;
+}
+
+button:focus,
+a:focus {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+}
+
+/* Line 1 (1:3) - 1084x2 at (98, 130) - STRETCH horizontal */
+.line-1 {
+    position: absolute;
+    left: 98px;
+    top: 130px;
+    width: 1084px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+/* Red Moon Title (1:6) - 579x428 at (77, 181) */
+.title-redmoon {
+    position: absolute;
+    left: 77px;
+    top: 181px;
+    width: 579px;
+    height: 428px;
+    font-size: 245px;
+    font-family: 'Helvetica Now MT Text';
+    font-weight: 400;
+    line-height: 214px;
+    color: #181818;
+    text-align: left;
+    /* Fixed text stroke for better rendering */
+    -webkit-text-stroke: 2px #000000;
+    paint-order: stroke fill;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+    cursor: default;
+}
+
+/* Magnetic Letter Effect */
+.magnetic-text .letter {
+    display: inline-block;
+    position: relative;
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    will-change: transform;
+    letter-spacing: -0.1em;
+}
+
+.magnetic-text .word {
+    display: inline-block;
+    letter-spacing: -0.1em;
+}
+
+/* Ellipse 1 (1:7) - 34x34 at (656, 562) - vertical CENTER constraint */
+.ellipse-1 {
+    position: absolute;
+    left: 656px;
+    top: 562px;
+    width: 34px;
+    height: 34px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+}
+
+/* Tagline (1:9) - 735x85 at (88, 602) */
+.tagline {
+    position: absolute;
+    left: 88px;
+    top: 621px;
+    width: 735px;
+    height: auto;
+    font-size: 59px;
+    font-family: 'Helvetica Now MT Text';
+    font-weight: 400;
+    letter-spacing: -0.09em;
+    line-height: 75px;
+    color: #ffffff;
+    text-align: left;
+}
+
+/* Service Section - Straight line design */
+.service-section {
+    position: absolute;
+    right: 126px;
+    top: 135px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.service-section:hover {
+    opacity: 0.9;
+    transform: translateX(5px);
+}
+
+/* Polygon Arrow (1:30) - Arrow pointing right */
+.polygon-arrow {
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Service Title (1:29) - Inline with arrow */
+.service-title {
+    font-size: 46px;
+    font-family: 'Helvetica Now MT Text';
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+/* Line 2 (1:31) - Underline on hover */
+.line-2 {
+    position: absolute;
+    left: 45px;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.3s ease;
+}
+
+.service-section:hover .line-2 {
+    width: calc(100% - 45px);
+}
+
+/* CTA Section */
+.cta-section {
+    position: absolute;
+    left: 94px;
+    top: 702px;
+}
+
+/* CTA Text (1:25) - 899x184 at (94, 689) - horizontal STRETCH, vertical MAX */
+.cta-text {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 899px;
+    height: 184px;
+    font-size: 96px;
+    font-family: 'Helvetica Now MT Text';
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    line-height: 86px;
+    color: #080808;
+    text-align: left;
+}
+
+/* Connect Button Background (1:27) - 245x68 at (86, 896) */
+.connect-button-bg {
+    position: absolute;
+    left: -8px;
+    top: 207px;
+    width: 245px;
+    height: 68px;
+    background-color: #ffffff;
+    border-radius: 100px;
+}
+
+/* Connect Button Text (1:28) - at (125, 909) */
+.connect-button-text {
+    position: absolute;
+    left: 31px;
+    top: 220px;
+    width: 159px;
+    height: 38px;
+    font-size: 46px;
+    font-family: 'Helvetica Now MT Text';
+    font-weight: 400;
+    letter-spacing: -0.09em;
+    line-height: 38px;
+    color: #000000;
+    text-align: left;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+
+.connect-button-text:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Background (1:33) - 1280x241 at (0, 1155) - STRETCH horizontal, MAX vertical */
+.footer-bg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 100vw;
+    height: 241px;
+    background-color: #1f1f1f;
+}
+
+/* Footer Tagline (1:39) - 648x29 at (263, 1206) - vertical MAX */
+.footer-tagline {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 51px;
+    width: auto;
+    max-width: 650px;
+    height: auto;
+    font-size: 39px;
+    font-family: 'Helvetica Now MT Text';
+    font-weight: 400;
+    letter-spacing: -0.1em;
+    line-height: 29px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/* Footer Logo (1:40) - 125x83 at (544, 1261) - vertical MAX */
+.footer-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 106px;
+    width: 125px;
+    height: 83px;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Social Links Container */
+.social-links {
+    position: absolute;
+    right: 156px;
+    top: 46px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    align-items: flex-start;
+}
+
+.social-links a {
+    font-size: 29px;
+    font-family: 'Helvetica Now MT Text';
+    font-weight: 400;
+    letter-spacing: -0.1em;
+    line-height: 29px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: opacity 0.3s;
+    display: block;
+    white-space: nowrap;
+}
+
+.social-links a:hover {
+    opacity: 0.7;
+}
+
+/* Responsive Design */
+@media (max-width: 1280px) {
+    .desktop-frame {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        overflow-x: hidden;
+    }
+
+    /* Navigation responsive */
+    .navigation {
+        right: 5%;
+        gap: 30px;
+    }
+
+    /* Elements with horizontal STRETCH */
+    .line-1 {
+        left: 5%;
+        right: 5%;
+        width: auto;
+    }
+
+    .footer-bg {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    /* Responsive font sizing */
+    .title-redmoon {
+        font-size: clamp(100px, 19vw, 245px);
+        line-height: clamp(90px, 16.7vw, 214px);
+        left: 5%;
+        width: auto;
+        max-width: 60%;
+    }
+
+    .tagline {
+        font-size: clamp(24px, 4.6vw, 59px);
+        left: 5%;
+        width: 70%;
+    }
+
+    .cta-text {
+        font-size: clamp(32px, 7.5vw, 96px);
+        line-height: clamp(30px, 6.7vw, 86px);
+        left: 5%;
+        width: 90%;
+    }
+
+    .service-section {
+        right: 5%;
+        top: auto;
+        bottom: 350px;
+    }
+
+    .service-title {
+        font-size: clamp(20px, 3.6vw, 46px);
+    }
+
+    .footer-tagline {
+        font-size: clamp(18px, 3vw, 39px);
+        left: 50%;
+        transform: translateX(-50%);
+        width: auto;
+        max-width: 80%;
+    }
+
+    .footer-logo {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .social-links {
+        right: 5%;
+        gap: 5px;
+    }
+
+    .connect-button-text {
+        font-size: clamp(22px, 3.6vw, 46px);
+    }
+
+    .nav-link {
+        font-size: clamp(18px, 3vw, 38px);
+    }
+
+    .social-links a {
+        font-size: clamp(14px, 2.3vw, 29px);
+    }
+}
+
+/* Mobile Design */
+@media (max-width: 768px) {
+    .desktop-frame {
+        padding-bottom: 300px;
+    }
+
+    .logo {
+        left: 20px;
+        top: 20px;
+    }
+
+    .navigation {
+        top: 30px;
+        right: 20px;
+        gap: 15px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .line-1 {
+        top: 80px;
+    }
+
+    .title-redmoon {
+        font-size: 80px;
+        line-height: 70px;
+        top: 120px;
+        max-width: 80%;
+    }
+
+    .title-redmoon:hover {
+        transform: translateY(-5px);
+    }
+
+    .tagline {
+        font-size: 24px;
+        line-height: 32px;
+        top: 320px;
+        width: 85%;
+    }
+
+    .service-section {
+        position: relative;
+        left: auto;
+        right: auto;
+        top: 400px;
+        margin: 0 20px;
+    }
+
+    .cta-section {
+        position: relative;
+        left: 20px;
+        top: 500px;
+        right: 20px;
+    }
+
+    .cta-text {
+        font-size: 36px;
+        line-height: 40px;
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+
+    .connect-button-bg,
+    .connect-button-text {
+        position: relative;
+        left: 0;
+        top: 20px;
+        margin: 20px auto;
+    }
+
+    .footer-bg {
+        position: relative;
+        margin-top: 100px;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .footer-tagline {
+        position: relative;
+        top: auto;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo {
+        position: relative;
+        top: auto;
+        margin: 20px auto;
+    }
+
+    .social-links {
+        position: relative;
+        right: auto;
+        top: auto;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .social-links a {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,280 @@
+/* Contact Modal Styles */
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.modal.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s forwards;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+}
+
+.modal-content {
+    position: relative;
+    background: #1f1f1f;
+    border-radius: 24px;
+    padding: 50px 60px;
+    max-width: 600px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    transform: scale(0.9) translateY(20px);
+    animation: slideUp 0.4s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+    z-index: 10001;
+}
+
+@keyframes slideUp {
+    to {
+        transform: scale(1) translateY(0);
+    }
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 36px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.3s, color 0.3s;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-close:hover {
+    transform: rotate(90deg);
+    color: #ff2300;
+}
+
+.modal-title {
+    font-size: 48px;
+    font-family: 'Helvetica Now MT Text', 'Helvetica', Arial, sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 10px;
+    letter-spacing: -0.05em;
+}
+
+.modal-subtitle {
+    font-size: 18px;
+    font-family: 'Helvetica Now MT Text', 'Helvetica', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-family: 'Helvetica Now MT Text', 'Helvetica', Arial, sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 16px 20px;
+    background: #2a2a2a;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: 'Helvetica Now MT Text', 'Helvetica', Arial, sans-serif;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #ff2300;
+    background: #1f1f1f;
+    box-shadow: 0 0 0 4px rgba(255, 35, 0, 0.1);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.error-message {
+    font-size: 14px;
+    color: #ff2300;
+    font-family: 'Helvetica Now MT Text', 'Helvetica', Arial, sans-serif;
+    display: none;
+}
+
+.error-message.active {
+    display: block;
+    animation: shake 0.3s;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+.submit-button {
+    background: #ff2300;
+    color: #ffffff;
+    border: none;
+    border-radius: 100px;
+    padding: 18px 40px;
+    font-size: 20px;
+    font-family: 'Helvetica Now MT Text', 'Helvetica', Arial, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background: #d91e00;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 35, 0, 0.4);
+}
+
+.submit-button:active {
+    transform: translateY(0);
+}
+
+.submit-button.loading {
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+.submit-button.loading .button-text {
+    opacity: 0;
+}
+
+.button-loader {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+}
+
+.submit-button.loading .button-loader {
+    display: block;
+}
+
+@keyframes spin {
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.form-status {
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: 'Helvetica Now MT Text', 'Helvetica', Arial, sans-serif;
+    text-align: center;
+    display: none;
+}
+
+.form-status.success {
+    display: block;
+    background: rgba(0, 200, 100, 0.1);
+    color: #00c864;
+    border: 1px solid rgba(0, 200, 100, 0.3);
+}
+
+.form-status.error {
+    display: block;
+    background: rgba(255, 35, 0, 0.1);
+    color: #ff2300;
+    border: 1px solid rgba(255, 35, 0, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .modal-content {
+        padding: 40px 30px;
+        width: 95%;
+    }
+
+    .modal-title {
+        font-size: 36px;
+    }
+
+    .modal-subtitle {
+        font-size: 16px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 14px 16px;
+        font-size: 15px;
+    }
+
+    .submit-button {
+        padding: 16px 32px;
+        font-size: 18px;
+    }
+}
+
+/* Connect button style fix */
+.connect-button-text {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.connect-button-text:hover {
+    transform: scale(1.05);
+}

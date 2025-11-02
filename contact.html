@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Red Moon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="contact-script.js" defer></script>
+</head>
+<body>
+    <!-- Desktop Frame (3:227) - 1280x1080 -->
+    <div class="desktop-frame contact-page" data-id="3:227">
+
+        <!-- Clouds - Multiple floating clouds -->
+        <svg class="cloud-img cloud-big-1" width="386" height="179" viewBox="0 0 200 100">
+            <path d="M170 80c0 11-9 20-20 20H50c-16.5 0-30-13.5-30-30s13.5-30 30-30c0.8 0 1.6 0 2.4 0.1C54.9 23.9 68.9 10 86 10c14.4 0 26.8 10 30 24.1 2.3-1.4 5-2.1 8-2.1 8.3 0 15 6.7 15 15 0 0.3 0 0.7 0 1 16.5 0 31 11.2 31 28z"
+                  fill="white" opacity="0.9"/>
+        </svg>
+        <svg class="cloud-img cloud-big-2" width="386" height="179" viewBox="0 0 250 120">
+            <g opacity="0.85">
+                <ellipse cx="60" cy="70" rx="35" ry="25" fill="white"/>
+                <ellipse cx="100" cy="65" rx="45" ry="35" fill="white"/>
+                <ellipse cx="150" cy="68" rx="40" ry="30" fill="white"/>
+                <ellipse cx="190" cy="75" rx="30" ry="22" fill="white"/>
+                <rect x="60" y="70" width="130" height="30" fill="white"/>
+            </g>
+        </svg>
+        <svg class="cloud-img cloud-big-3" width="386" height="179" viewBox="0 0 200 100">
+            <path d="M170 80c0 11-9 20-20 20H50c-16.5 0-30-13.5-30-30s13.5-30 30-30c0.8 0 1.6 0 2.4 0.1C54.9 23.9 68.9 10 86 10c14.4 0 26.8 10 30 24.1 2.3-1.4 5-2.1 8-2.1 8.3 0 15 6.7 15 15 0 0.3 0 0.7 0 1 16.5 0 31 11.2 31 28z"
+                  fill="white" opacity="0.9"/>
+        </svg>
+        <!-- Additional clouds for more aesthetic -->
+        <svg class="cloud-img cloud-big-4" width="320" height="150" viewBox="0 0 200 100">
+            <g opacity="0.75">
+                <circle cx="60" cy="60" r="25" fill="white"/>
+                <circle cx="103" cy="55" r="28" fill="white"/>
+                <circle cx="140" cy="65" r="22" fill="white"/>
+            </g>
+        </svg>
+        <svg class="cloud-img cloud-big-5" width="300" height="140" viewBox="0 0 200 100">
+            <path d="M170 80c0 11-9 20-20 20H50c-16.5 0-30-13.5-30-30s13.5-30 30-30c0.8 0 1.6 0 2.4 0.1C54.9 23.9 68.9 10 86 10c14.4 0 26.8 10 30 24.1 2.3-1.4 5-2.1 8-2.1 8.3 0 15 6.7 15 15 0 0.3 0 0.7 0 1 16.5 0 31 11.2 31 28z"
+                  fill="white" opacity="0.8"/>
+        </svg>
+        <svg class="cloud-img cloud-big-6" width="280" height="130" viewBox="0 0 250 120">
+            <g opacity="0.7">
+                <ellipse cx="60" cy="70" rx="35" ry="25" fill="white"/>
+                <ellipse cx="100" cy="65" rx="45" ry="35" fill="white"/>
+                <ellipse cx="150" cy="68" rx="40" ry="30" fill="white"/>
+                <rect x="60" y="70" width="90" height="30" fill="white"/>
+            </g>
+        </svg>
+
+        <!-- Logo (3:231) - 137x92 at (151, 31) -->
+        <div class="logo contact-logo" data-id="3:231">
+            <img src="logomain.svg" alt="Red Moon Logo" width="137" height="92">
+        </div>
+
+        <!-- Back Arrow (3:290) - THIN -->
+        <a href="index.html" class="back-arrow-contact" data-id="3:290">
+            <svg width="60" height="20" viewBox="0 0 60 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 10L10 5L10 8L55 8L55 12L10 12L10 15L5 10Z" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round"/>
+            </svg>
+        </a>
+
+        <!-- Contact Form Container (3:230) - Rectangle 4: 628x433 at (356, 323) -->
+        <div class="contact-container" data-id="3:230">
+
+            <!-- Contact Us Title (3:232) - 323x32 at (573, 450) -->
+            <h1 class="contact-title" data-id="3:232">Contact Us</h1>
+
+            <!-- Subtitle (3:234) - "Got a project ? Send us a message" -->
+            <p class="contact-subtitle" data-id="3:234">Got a project ? Send us a message</p>
+
+            <!-- Email Input Box (3:233) - Rectangle 9: 470x63 at (424, 564) -->
+            <form id="contactForm" class="contact-form-box">
+                <input type="hidden" name="user_name" id="userName" value="">
+                <input type="hidden" name="to_email" value="deeplearn.ra@gmail.com">
+                <div class="email-input-wrapper" data-id="3:233">
+                    <input
+                        type="email"
+                        id="emailInput"
+                        name="user_email"
+                        placeholder="Enter your mail"
+                        data-id="3:247"
+                        required
+                    />
+                    <!-- Send Button Icon (3:235) - Mail Icon -->
+                    <button type="submit" class="send-button" data-id="3:235">
+                        <img src="mail.png" alt="Send">
+                    </button>
+                </div>
+                <div class="form-status" id="formStatus"></div>
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</body>
+</html>

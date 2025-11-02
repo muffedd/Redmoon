@@ -1,0 +1,4707 @@
+Extract Data Copy JSON
+{
+  "page": "Page 1",
+  "elements": [
+    {
+      "id": "1:2",
+      "name": "Desktop",
+      "type": "FRAME",
+      "relativeX": 0,
+      "relativeY": 0,
+      "absoluteX": 0,
+      "absoluteY": 0,
+      "width": 1280,
+      "height": 1396,
+      "fillColor": "#ff2300",
+      "strokeWidth": 1,
+      "strokeAlign": "INSIDE",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutSizingHorizontal": "FIXED",
+      "layoutSizingVertical": "FIXED",
+      "children": [
+        {
+          "id": "1:3",
+          "name": "Line 1",
+          "type": "LINE",
+          "relativeX": 98,
+          "relativeY": 130,
+          "absoluteX": 98,
+          "absoluteY": 130,
+          "width": 1084,
+          "height": 0,
+          "distanceToParent": {
+            "left": 98,
+            "top": 130,
+            "right": 98,
+            "bottom": 1266,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "rotation": 0,
+          "strokeColor": "#ffffff",
+          "strokeWidth": 2,
+          "strokeAlign": "CENTER",
+          "constraints": {
+            "horizontal": "STRETCH",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:4",
+          "name": "About us",
+          "type": "TEXT",
+          "relativeX": 806,
+          "relativeY": 68,
+          "absoluteX": 806,
+          "absoluteY": 68,
+          "width": 161,
+          "height": 56,
+          "distanceToParent": {
+            "left": 806,
+            "top": 68,
+            "right": 313,
+            "bottom": 1272,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "About us ",
+          "fontSize": 38,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "0%",
+          "lineHeight": "auto",
+          "textAlign": "LEFT",
+          "textAlignVertical": "TOP",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:5",
+          "name": "Support",
+          "type": "TEXT",
+          "relativeX": 1009,
+          "relativeY": 68,
+          "absoluteX": 1009,
+          "absoluteY": 68,
+          "width": 145,
+          "height": 56,
+          "distanceToParent": {
+            "left": 1009,
+            "top": 68,
+            "right": 126,
+            "bottom": 1272,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "Support",
+          "fontSize": 38,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "0%",
+          "lineHeight": "auto",
+          "textAlign": "LEFT",
+          "textAlignVertical": "TOP",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:6",
+          "name": "Red Moon",
+          "type": "TEXT",
+          "relativeX": 77,
+          "relativeY": 181,
+          "absoluteX": 77,
+          "absoluteY": 181,
+          "width": 579,
+          "height": 428,
+          "distanceToParent": {
+            "left": 77,
+            "top": 181,
+            "right": 624,
+            "bottom": 787,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#181818",
+          "strokeColor": "#211817",
+          "strokeWidth": 3,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "Red\nMoon",
+          "fontSize": 245,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-10%",
+          "lineHeight": 214,
+          "textAlign": "LEFT",
+          "textAlignVertical": "TOP",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:7",
+          "name": "Ellipse 1",
+          "type": "ELLIPSE",
+          "relativeX": 656,
+          "relativeY": 562,
+          "absoluteX": 656,
+          "absoluteY": 562,
+          "width": 34,
+          "height": 34,
+          "distanceToParent": {
+            "left": 656,
+            "top": 562,
+            "right": 590,
+            "bottom": 800,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#d9d9d9",
+          "strokeWidth": 1,
+          "strokeAlign": "INSIDE",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "CENTER"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:8",
+          "name": "Ellipse 2",
+          "type": "ELLIPSE",
+          "relativeX": 272,
+          "relativeY": 404,
+          "absoluteX": 272,
+          "absoluteY": 404,
+          "width": 11,
+          "height": 11,
+          "distanceToParent": {
+            "left": 272,
+            "top": 404,
+            "right": 997,
+            "bottom": 981,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "visible": false,
+          "fillColor": "#d9d9d9",
+          "strokeWidth": 1,
+          "strokeAlign": "INSIDE",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:9",
+          "name": "Your personal brand companion",
+          "type": "TEXT",
+          "relativeX": 88,
+          "relativeY": 602,
+          "absoluteX": 88,
+          "absoluteY": 602,
+          "width": 735,
+          "height": 85,
+          "distanceToParent": {
+            "left": 88,
+            "top": 602,
+            "right": 457,
+            "bottom": 709,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "Your personal brand companion",
+          "fontSize": 59,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-9%",
+          "lineHeight": 85,
+          "textAlign": "LEFT",
+          "textAlignVertical": "TOP",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:10",
+          "name": "logomain 1",
+          "type": "FRAME",
+          "relativeX": 98,
+          "relativeY": 63,
+          "absoluteX": 98,
+          "absoluteY": 63,
+          "width": 71,
+          "height": 47,
+          "distanceToParent": {
+            "left": 98,
+            "top": 63,
+            "right": 1111,
+            "bottom": 1286,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "strokeWidth": 1,
+          "strokeAlign": "INSIDE",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "children": [
+            {
+              "id": "1:11",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 44,
+              "relativeY": 7,
+              "absoluteX": 142,
+              "absoluteY": 70,
+              "width": 0,
+              "height": 0,
+              "distanceToParent": {
+                "left": 44,
+                "top": 7,
+                "right": 27,
+                "bottom": 40,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#000000",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:12",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 0,
+              "relativeY": 0,
+              "absoluteX": 98,
+              "absoluteY": 63,
+              "width": 71,
+              "height": 47,
+              "distanceToParent": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": true,
+                "fillsParentHeight": true
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:13",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 36,
+              "relativeY": 6,
+              "absoluteX": 134,
+              "absoluteY": 69,
+              "width": 0,
+              "height": 0,
+              "distanceToParent": {
+                "left": 36,
+                "top": 6,
+                "right": 35,
+                "bottom": 41,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:14",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 21,
+              "relativeY": 1,
+              "absoluteX": 119,
+              "absoluteY": 64,
+              "width": 3,
+              "height": 0,
+              "distanceToParent": {
+                "left": 21,
+                "top": 1,
+                "right": 46,
+                "bottom": 46,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "CENTER",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:15",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 36,
+              "relativeY": 6,
+              "absoluteX": 134,
+              "absoluteY": 69,
+              "width": 0,
+              "height": 0,
+              "distanceToParent": {
+                "left": 36,
+                "top": 6,
+                "right": 35,
+                "bottom": 41,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "CENTER",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            }
+          ]
+        },
+        {
+          "id": "1:16",
+          "name": "logomain 3",
+          "type": "FRAME",
+          "relativeX": 98,
+          "relativeY": 63,
+          "absoluteX": 98,
+          "absoluteY": 63,
+          "width": 71,
+          "height": 47,
+          "distanceToParent": {
+            "left": 98,
+            "top": 63,
+            "right": 1111,
+            "bottom": 1286,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "visible": false,
+          "strokeWidth": 1,
+          "strokeAlign": "INSIDE",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "children": [
+            {
+              "id": "1:17",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 44,
+              "relativeY": 7,
+              "absoluteX": 142,
+              "absoluteY": 70,
+              "width": 0,
+              "height": 0,
+              "distanceToParent": {
+                "left": 44,
+                "top": 7,
+                "right": 27,
+                "bottom": 40,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#000000",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:18",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 0,
+              "relativeY": 0,
+              "absoluteX": 98,
+              "absoluteY": 63,
+              "width": 71,
+              "height": 47,
+              "distanceToParent": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": true,
+                "fillsParentHeight": true
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:19",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 36,
+              "relativeY": 6,
+              "absoluteX": 134,
+              "absoluteY": 69,
+              "width": 0,
+              "height": 0,
+              "distanceToParent": {
+                "left": 36,
+                "top": 6,
+                "right": 35,
+                "bottom": 41,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:20",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 21,
+              "relativeY": 1,
+              "absoluteX": 119,
+              "absoluteY": 64,
+              "width": 3,
+              "height": 0,
+              "distanceToParent": {
+                "left": 21,
+                "top": 1,
+                "right": 46,
+                "bottom": 46,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "CENTER",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:21",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 36,
+              "relativeY": 6,
+              "absoluteX": 134,
+              "absoluteY": 69,
+              "width": 0,
+              "height": 0,
+              "distanceToParent": {
+                "left": 36,
+                "top": 6,
+                "right": 35,
+                "bottom": 41,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "CENTER",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            }
+          ]
+        },
+        {
+          "id": "1:22",
+          "name": "About us",
+          "type": "TEXT",
+          "relativeX": 206,
+          "relativeY": 90,
+          "absoluteX": 206,
+          "absoluteY": 90,
+          "width": 161,
+          "height": 56,
+          "distanceToParent": {
+            "left": 206,
+            "top": 90,
+            "right": 913,
+            "bottom": 1250,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "visible": false,
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "About us ",
+          "fontSize": 38,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "0%",
+          "lineHeight": "auto",
+          "textAlign": "LEFT",
+          "textAlignVertical": "TOP",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:23",
+          "name": "About us",
+          "type": "TEXT",
+          "relativeX": 1550,
+          "relativeY": 90,
+          "absoluteX": 1550,
+          "absoluteY": 90,
+          "width": 51,
+          "height": 18,
+          "distanceToParent": {
+            "left": 1550,
+            "top": 90,
+            "right": -321,
+            "bottom": 1288,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "visible": false,
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "About us ",
+          "fontSize": 12,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "0%",
+          "lineHeight": "auto",
+          "textAlign": "LEFT",
+          "textAlignVertical": "TOP",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:24",
+          "name": "Services",
+          "type": "TEXT",
+          "relativeX": 204,
+          "relativeY": 59,
+          "absoluteX": 204,
+          "absoluteY": 59,
+          "width": 125,
+          "height": 56,
+          "distanceToParent": {
+            "left": 204,
+            "top": 59,
+            "right": 951,
+            "bottom": 1281,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "visible": false,
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "Services",
+          "fontSize": 38,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-11%",
+          "lineHeight": "auto",
+          "textAlign": "LEFT",
+          "textAlignVertical": "TOP",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:25",
+          "name": "Lets Connect and Work Together —",
+          "type": "TEXT",
+          "relativeX": 94,
+          "relativeY": 689,
+          "absoluteX": 94,
+          "absoluteY": 689,
+          "width": 899,
+          "height": 184,
+          "distanceToParent": {
+            "left": 94,
+            "top": 689,
+            "right": 287,
+            "bottom": 523,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#080808",
+          "strokeColor": "#000000",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "Lets Connect and Work Together —",
+          "fontSize": 96,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-4%",
+          "lineHeight": 86,
+          "textAlign": "LEFT",
+          "textAlignVertical": "TOP",
+          "constraints": {
+            "horizontal": "STRETCH",
+            "vertical": "MAX"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:26",
+          "name": "Contact",
+          "type": "TEXT",
+          "relativeX": 58,
+          "relativeY": 586,
+          "absoluteX": 58,
+          "absoluteY": 586,
+          "width": 102,
+          "height": 29,
+          "distanceToParent": {
+            "left": 58,
+            "top": 586,
+            "right": 1120,
+            "bottom": 781,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "visible": false,
+          "fillColor": "#732828",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "Contact",
+          "fontSize": 29,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-4%",
+          "lineHeight": 29,
+          "textAlign": "LEFT",
+          "textAlignVertical": "TOP",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:27",
+          "name": "Rectangle 1",
+          "type": "RECTANGLE",
+          "relativeX": 86,
+          "relativeY": 896,
+          "absoluteX": 86,
+          "absoluteY": 896,
+          "width": 245,
+          "height": 68,
+          "distanceToParent": {
+            "left": 86,
+            "top": 896,
+            "right": 949,
+            "bottom": 432,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "INSIDE",
+          "borderRadius": 100,
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:28",
+          "name": "Connect",
+          "type": "TEXT",
+          "relativeX": 125,
+          "relativeY": 909,
+          "absoluteX": 125,
+          "absoluteY": 909,
+          "width": 159,
+          "height": 38,
+          "distanceToParent": {
+            "left": 125,
+            "top": 909,
+            "right": 996,
+            "bottom": 449,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#000000",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "Connect",
+          "fontSize": 46,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-9%",
+          "lineHeight": 38,
+          "textAlign": "LEFT",
+          "textAlignVertical": "TOP",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:29",
+          "name": "Our Service",
+          "type": "TEXT",
+          "relativeX": 758,
+          "relativeY": 210,
+          "absoluteX": 758,
+          "absoluteY": 210,
+          "width": 235,
+          "height": 34,
+          "distanceToParent": {
+            "left": 758,
+            "top": 210,
+            "right": 287,
+            "bottom": 1152,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "Our  Service",
+          "fontSize": 46,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-9%",
+          "lineHeight": 38,
+          "textAlign": "LEFT",
+          "textAlignVertical": "TOP",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:30",
+          "name": "Polygon 1",
+          "type": "POLYGON",
+          "relativeX": 745,
+          "relativeY": 222,
+          "absoluteX": 745,
+          "absoluteY": 222,
+          "width": 20,
+          "height": 30,
+          "distanceToParent": {
+            "left": 745,
+            "top": 222,
+            "right": 515,
+            "bottom": 1144,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "rotation": -90,
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "INSIDE",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:31",
+          "name": "Line 2",
+          "type": "LINE",
+          "relativeX": 762,
+          "relativeY": 252,
+          "absoluteX": 762,
+          "absoluteY": 252,
+          "width": 221,
+          "height": 0,
+          "distanceToParent": {
+            "left": 762,
+            "top": 252,
+            "right": 297,
+            "bottom": 1144,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "strokeColor": "#ffffff",
+          "strokeWidth": 2,
+          "strokeAlign": "CENTER",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:32",
+          "name": "Clients",
+          "type": "TEXT",
+          "relativeX": 652,
+          "relativeY": 77,
+          "absoluteX": 652,
+          "absoluteY": 77,
+          "width": 126,
+          "height": 38,
+          "distanceToParent": {
+            "left": 652,
+            "top": 77,
+            "right": 502,
+            "bottom": 1281,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "Clients",
+          "fontSize": 38,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "0%",
+          "lineHeight": 38,
+          "textAlign": "LEFT",
+          "textAlignVertical": "TOP",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:33",
+          "name": "Rectangle 2",
+          "type": "RECTANGLE",
+          "relativeX": 0,
+          "relativeY": 1155,
+          "absoluteX": 0,
+          "absoluteY": 1155,
+          "width": 1280,
+          "height": 241,
+          "distanceToParent": {
+            "left": 0,
+            "top": 1155,
+            "right": 0,
+            "bottom": 0,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": true,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#1f1f1f",
+          "strokeWidth": 1,
+          "strokeAlign": "INSIDE",
+          "constraints": {
+            "horizontal": "STRETCH",
+            "vertical": "MAX"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:34",
+          "name": "Text",
+          "type": "TEXT",
+          "relativeX": 94,
+          "relativeY": 1206,
+          "absoluteX": 94,
+          "absoluteY": 1206,
+          "width": 0,
+          "height": 29,
+          "distanceToParent": {
+            "left": 94,
+            "top": 1206,
+            "right": 1186,
+            "bottom": 161,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": " ",
+          "fontSize": 29,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-10%",
+          "lineHeight": 29,
+          "textAlign": "LEFT",
+          "textAlignVertical": "TOP",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:35",
+          "name": "Linkedin",
+          "type": "TEXT",
+          "relativeX": 1028,
+          "relativeY": 1201,
+          "absoluteX": 1028,
+          "absoluteY": 1201,
+          "width": 96,
+          "height": 29,
+          "distanceToParent": {
+            "left": 1028,
+            "top": 1201,
+            "right": 156,
+            "bottom": 166,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "Linkedin",
+          "fontSize": 29,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-10%",
+          "lineHeight": 29,
+          "textAlign": "LEFT",
+          "textAlignVertical": "CENTER",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MAX"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:36",
+          "name": "Instagram",
+          "type": "TEXT",
+          "relativeX": 1028,
+          "relativeY": 1238,
+          "absoluteX": 1028,
+          "absoluteY": 1238,
+          "width": 113,
+          "height": 58,
+          "distanceToParent": {
+            "left": 1028,
+            "top": 1238,
+            "right": 139,
+            "bottom": 100,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "Instagram\n",
+          "fontSize": 29,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-10%",
+          "lineHeight": 29,
+          "textAlign": "LEFT",
+          "textAlignVertical": "CENTER",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:37",
+          "name": "X",
+          "type": "TEXT",
+          "relativeX": 1028,
+          "relativeY": 1276,
+          "absoluteX": 1028,
+          "absoluteY": 1276,
+          "width": 20,
+          "height": 58,
+          "distanceToParent": {
+            "left": 1028,
+            "top": 1276,
+            "right": 232,
+            "bottom": 62,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "X\n",
+          "fontSize": 29,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-10%",
+          "lineHeight": 29,
+          "textAlign": "LEFT",
+          "textAlignVertical": "CENTER",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:38",
+          "name": "Youtube",
+          "type": "TEXT",
+          "relativeX": 1028,
+          "relativeY": 1312,
+          "absoluteX": 1028,
+          "absoluteY": 1312,
+          "width": 105,
+          "height": 29,
+          "distanceToParent": {
+            "left": 1028,
+            "top": 1312,
+            "right": 147,
+            "bottom": 55,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "Youtube",
+          "fontSize": 29,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-4%",
+          "lineHeight": 29,
+          "textAlign": "LEFT",
+          "textAlignVertical": "CENTER",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MAX"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:39",
+          "name": "One stop solution for your brand",
+          "type": "TEXT",
+          "relativeX": 263,
+          "relativeY": 1206,
+          "absoluteX": 263,
+          "absoluteY": 1206,
+          "width": 648,
+          "height": 29,
+          "distanceToParent": {
+            "left": 263,
+            "top": 1206,
+            "right": 369,
+            "bottom": 161,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "One stop solution for your brand ",
+          "fontSize": 39,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-10%",
+          "lineHeight": 29,
+          "textAlign": "LEFT",
+          "textAlignVertical": "TOP",
+          "textCase": "UPPER",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MAX"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:40",
+          "name": "logomain 2",
+          "type": "FRAME",
+          "relativeX": 544,
+          "relativeY": 1261,
+          "absoluteX": 544,
+          "absoluteY": 1261,
+          "width": 125,
+          "height": 83,
+          "distanceToParent": {
+            "left": 544,
+            "top": 1261,
+            "right": 611,
+            "bottom": 52,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "strokeWidth": 1,
+          "strokeAlign": "INSIDE",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MAX"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "children": [
+            {
+              "id": "1:41",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 77,
+              "relativeY": 13,
+              "absoluteX": 621,
+              "absoluteY": 1274,
+              "width": 0,
+              "height": 0,
+              "distanceToParent": {
+                "left": 77,
+                "top": 13,
+                "right": 47,
+                "bottom": 70,
+                "parentWidth": 125,
+                "parentHeight": 83,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#000000",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:42",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 0,
+              "relativeY": 0,
+              "absoluteX": 544,
+              "absoluteY": 1261,
+              "width": 125,
+              "height": 83,
+              "distanceToParent": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "parentWidth": 125,
+                "parentHeight": 83,
+                "fillsParentWidth": true,
+                "fillsParentHeight": true
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:43",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 63,
+              "relativeY": 11,
+              "absoluteX": 607,
+              "absoluteY": 1272,
+              "width": 0,
+              "height": 0,
+              "distanceToParent": {
+                "left": 63,
+                "top": 11,
+                "right": 62,
+                "bottom": 72,
+                "parentWidth": 125,
+                "parentHeight": 83,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:44",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 37,
+              "relativeY": 2,
+              "absoluteX": 581,
+              "absoluteY": 1263,
+              "width": 6,
+              "height": 0,
+              "distanceToParent": {
+                "left": 37,
+                "top": 2,
+                "right": 81,
+                "bottom": 80,
+                "parentWidth": 125,
+                "parentHeight": 83,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "CENTER",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:45",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 63,
+              "relativeY": 11,
+              "absoluteX": 607,
+              "absoluteY": 1272,
+              "width": 0,
+              "height": 0,
+              "distanceToParent": {
+                "left": 63,
+                "top": 11,
+                "right": 62,
+                "bottom": 72,
+                "parentWidth": 125,
+                "parentHeight": 83,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "CENTER",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            }
+          ]
+        },
+        {
+          "id": "1:46",
+          "name": "Linkedin",
+          "type": "TEXT",
+          "relativeX": 1028,
+          "relativeY": 885,
+          "absoluteX": 1028,
+          "absoluteY": 885,
+          "width": 96,
+          "height": 29,
+          "distanceToParent": {
+            "left": 1028,
+            "top": 885,
+            "right": 156,
+            "bottom": 482,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "visible": false,
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "Linkedin",
+          "fontSize": 29,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-10%",
+          "lineHeight": 29,
+          "textAlign": "LEFT",
+          "textAlignVertical": "CENTER",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MAX"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:47",
+          "name": "Instagram",
+          "type": "TEXT",
+          "relativeX": 1028,
+          "relativeY": 1238,
+          "absoluteX": 1028,
+          "absoluteY": 1238,
+          "width": 113,
+          "height": 58,
+          "distanceToParent": {
+            "left": 1028,
+            "top": 1238,
+            "right": 139,
+            "bottom": 100,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "visible": false,
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "Instagram\n",
+          "fontSize": 29,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-10%",
+          "lineHeight": 29,
+          "textAlign": "LEFT",
+          "textAlignVertical": "CENTER",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:48",
+          "name": "X",
+          "type": "TEXT",
+          "relativeX": 1028,
+          "relativeY": 1276,
+          "absoluteX": 1028,
+          "absoluteY": 1276,
+          "width": 20,
+          "height": 58,
+          "distanceToParent": {
+            "left": 1028,
+            "top": 1276,
+            "right": 232,
+            "bottom": 62,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "visible": false,
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "X\n",
+          "fontSize": 29,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-10%",
+          "lineHeight": 29,
+          "textAlign": "LEFT",
+          "textAlignVertical": "CENTER",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:49",
+          "name": "Linkedin X Youtube Instagram",
+          "type": "TEXT",
+          "relativeX": 282,
+          "relativeY": 960,
+          "absoluteX": 282,
+          "absoluteY": 960,
+          "width": 113,
+          "height": 116,
+          "distanceToParent": {
+            "left": 282,
+            "top": 960,
+            "right": 885,
+            "bottom": 320,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "visible": false,
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "Linkedin X Youtube Instagram",
+          "fontSize": 29,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-10%",
+          "lineHeight": 29,
+          "textAlign": "LEFT",
+          "textAlignVertical": "CENTER",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:50",
+          "name": "What we provide",
+          "type": "TEXT",
+          "relativeX": 100,
+          "relativeY": 718,
+          "absoluteX": 100,
+          "absoluteY": 718,
+          "width": 301,
+          "height": 38,
+          "distanceToParent": {
+            "left": 100,
+            "top": 718,
+            "right": 879,
+            "bottom": 640,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "visible": false,
+          "fillColor": "#ffffff",
+          "strokeWidth": 1,
+          "strokeAlign": "OUTSIDE",
+          "textContent": "What we provide",
+          "fontSize": 46,
+          "fontFamily": "Helvetica Now MT Text",
+          "fontWeight": "Regular",
+          "letterSpacing": "-9%",
+          "lineHeight": 38,
+          "textAlign": "LEFT",
+          "textAlignVertical": "TOP",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED"
+        },
+        {
+          "id": "1:51",
+          "name": "logomain 4",
+          "type": "FRAME",
+          "relativeX": 31,
+          "relativeY": 63,
+          "absoluteX": 31,
+          "absoluteY": 63,
+          "width": 71,
+          "height": 47,
+          "distanceToParent": {
+            "left": 31,
+            "top": 63,
+            "right": 1178,
+            "bottom": 1286,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "visible": false,
+          "strokeWidth": 1,
+          "strokeAlign": "INSIDE",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "children": [
+            {
+              "id": "1:52",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 44,
+              "relativeY": 7,
+              "absoluteX": 75,
+              "absoluteY": 70,
+              "width": 0,
+              "height": 0,
+              "distanceToParent": {
+                "left": 44,
+                "top": 7,
+                "right": 27,
+                "bottom": 40,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#000000",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:53",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 0,
+              "relativeY": 0,
+              "absoluteX": 31,
+              "absoluteY": 63,
+              "width": 71,
+              "height": 47,
+              "distanceToParent": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": true,
+                "fillsParentHeight": true
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:54",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 36,
+              "relativeY": 6,
+              "absoluteX": 67,
+              "absoluteY": 69,
+              "width": 0,
+              "height": 0,
+              "distanceToParent": {
+                "left": 36,
+                "top": 6,
+                "right": 35,
+                "bottom": 41,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:55",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 21,
+              "relativeY": 1,
+              "absoluteX": 52,
+              "absoluteY": 64,
+              "width": 3,
+              "height": 0,
+              "distanceToParent": {
+                "left": 21,
+                "top": 1,
+                "right": 46,
+                "bottom": 46,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "CENTER",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:56",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 36,
+              "relativeY": 6,
+              "absoluteX": 67,
+              "absoluteY": 69,
+              "width": 0,
+              "height": 0,
+              "distanceToParent": {
+                "left": 36,
+                "top": 6,
+                "right": 35,
+                "bottom": 41,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "CENTER",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            }
+          ]
+        },
+        {
+          "id": "1:57",
+          "name": "logomain 5",
+          "type": "FRAME",
+          "relativeX": 31,
+          "relativeY": 63,
+          "absoluteX": 31,
+          "absoluteY": 63,
+          "width": 71,
+          "height": 47,
+          "distanceToParent": {
+            "left": 31,
+            "top": 63,
+            "right": 1178,
+            "bottom": 1286,
+            "parentWidth": 1280,
+            "parentHeight": 1396,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "visible": false,
+          "strokeWidth": 1,
+          "strokeAlign": "INSIDE",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "children": [
+            {
+              "id": "1:58",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 44,
+              "relativeY": 7,
+              "absoluteX": 75,
+              "absoluteY": 70,
+              "width": 0,
+              "height": 0,
+              "distanceToParent": {
+                "left": 44,
+                "top": 7,
+                "right": 27,
+                "bottom": 40,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#000000",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:59",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 0,
+              "relativeY": 0,
+              "absoluteX": 31,
+              "absoluteY": 63,
+              "width": 71,
+              "height": 47,
+              "distanceToParent": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": true,
+                "fillsParentHeight": true
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:60",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 36,
+              "relativeY": 6,
+              "absoluteX": 67,
+              "absoluteY": 69,
+              "width": 0,
+              "height": 0,
+              "distanceToParent": {
+                "left": 36,
+                "top": 6,
+                "right": 35,
+                "bottom": 41,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:61",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 21,
+              "relativeY": 1,
+              "absoluteX": 52,
+              "absoluteY": 64,
+              "width": 3,
+              "height": 0,
+              "distanceToParent": {
+                "left": 21,
+                "top": 1,
+                "right": 46,
+                "bottom": 46,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "CENTER",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "1:62",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 36,
+              "relativeY": 6,
+              "absoluteX": 67,
+              "absoluteY": 69,
+              "width": 0,
+              "height": 0,
+              "distanceToParent": {
+                "left": 36,
+                "top": 6,
+                "right": 35,
+                "bottom": 41,
+                "parentWidth": 71,
+                "parentHeight": 47,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "CENTER",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+page 2 context
+Extract Data Copy JSON
+{
+  "page": "Page 1",
+  "elements": [
+    {
+      "id": "3:176",
+      "name": "/page",
+      "type": "SECTION",
+      "relativeX": 1705,
+      "relativeY": 542,
+      "absoluteX": 1705,
+      "absoluteY": 542,
+      "width": 1408,
+      "height": 1244,
+      "fillColor": "#ffffff",
+      "children": [
+        {
+          "id": "3:128",
+          "name": "Desktop",
+          "type": "FRAME",
+          "relativeX": 64,
+          "relativeY": 100,
+          "absoluteX": 1769,
+          "absoluteY": 642,
+          "width": 1280,
+          "height": 1080,
+          "distanceToParent": {
+            "left": 64,
+            "top": 100,
+            "right": 64,
+            "bottom": 64,
+            "parentWidth": 1408,
+            "parentHeight": 1244,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#ff2300",
+          "strokeWidth": 1,
+          "strokeAlign": "INSIDE",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "children": [
+            {
+              "id": "3:129",
+              "name": "nano-banana-creation-6-1 13",
+              "type": "RECTANGLE",
+              "relativeX": 833,
+              "relativeY": 348,
+              "absoluteX": 2602,
+              "absoluteY": 990,
+              "width": 386,
+              "height": 179,
+              "distanceToParent": {
+                "left": 833,
+                "top": 348,
+                "right": 61,
+                "bottom": 553,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 0,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:130",
+              "name": "nano-banana-creation-6-1 14",
+              "type": "RECTANGLE",
+              "relativeX": -18,
+              "relativeY": 363,
+              "absoluteX": 1751,
+              "absoluteY": 1005,
+              "width": 386,
+              "height": 179,
+              "distanceToParent": {
+                "left": -18,
+                "top": 363,
+                "right": 912,
+                "bottom": 538,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:131",
+              "name": "nano-banana-creation-6-1 16",
+              "type": "RECTANGLE",
+              "relativeX": 1055,
+              "relativeY": 999,
+              "absoluteX": 2824,
+              "absoluteY": 1641,
+              "width": 274,
+              "height": 128,
+              "distanceToParent": {
+                "left": 1055,
+                "top": 999,
+                "right": -49,
+                "bottom": -47,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MAX"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:132",
+              "name": "nano-banana-creation-6-1 17",
+              "type": "RECTANGLE",
+              "relativeX": -86,
+              "relativeY": 957,
+              "absoluteX": 1683,
+              "absoluteY": 1599,
+              "width": 386,
+              "height": 179,
+              "distanceToParent": {
+                "left": -86,
+                "top": 957,
+                "right": 980,
+                "bottom": -56,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MAX"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:133",
+              "name": "nano-banana-creation-6-1 18",
+              "type": "RECTANGLE",
+              "relativeX": 815,
+              "relativeY": 135,
+              "absoluteX": 2584,
+              "absoluteY": 777,
+              "width": 254,
+              "height": 174,
+              "distanceToParent": {
+                "left": 815,
+                "top": 135,
+                "right": 211,
+                "bottom": 771,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MAX",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:134",
+              "name": "nano-banana-creation-6-1 19",
+              "type": "RECTANGLE",
+              "relativeX": 124,
+              "relativeY": 746,
+              "absoluteX": 1893,
+              "absoluteY": 1388,
+              "width": 320,
+              "height": 130,
+              "distanceToParent": {
+                "left": 124,
+                "top": 746,
+                "right": 836,
+                "bottom": 204,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:135",
+              "name": "nano-banana-creation-6-1 20",
+              "type": "RECTANGLE",
+              "relativeX": 643,
+              "relativeY": 827,
+              "absoluteX": 2412,
+              "absoluteY": 1469,
+              "width": 320,
+              "height": 130,
+              "distanceToParent": {
+                "left": 643,
+                "top": 827,
+                "right": 317,
+                "bottom": 123,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MAX",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:136",
+              "name": "nano-banana-creation-6-1 21",
+              "type": "RECTANGLE",
+              "relativeX": 938,
+              "relativeY": 620,
+              "absoluteX": 2707,
+              "absoluteY": 1262,
+              "width": 320,
+              "height": 130,
+              "distanceToParent": {
+                "left": 938,
+                "top": 620,
+                "right": 22,
+                "bottom": 330,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:137",
+              "name": "nano-banana-creation-6-1 22",
+              "type": "RECTANGLE",
+              "relativeX": 1026,
+              "relativeY": 110,
+              "absoluteX": 2795,
+              "absoluteY": 752,
+              "width": 271,
+              "height": 170,
+              "distanceToParent": {
+                "left": 1026,
+                "top": 110,
+                "right": -17,
+                "bottom": 800,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:138",
+              "name": "Services",
+              "type": "TEXT",
+              "relativeX": 46,
+              "relativeY": 51,
+              "absoluteX": 1815,
+              "absoluteY": 693,
+              "width": 690,
+              "height": 188,
+              "distanceToParent": {
+                "left": 46,
+                "top": 51,
+                "right": 544,
+                "bottom": 841,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "OUTSIDE",
+              "textContent": "Services\n",
+              "fontSize": 206,
+              "fontFamily": "Helvetica Now MT Text",
+              "fontWeight": "Regular",
+              "letterSpacing": "-10%",
+              "lineHeight": 214,
+              "textAlign": "LEFT",
+              "textAlignVertical": "TOP",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:139",
+              "name": "Group 1",
+              "type": "GROUP",
+              "relativeX": 167,
+              "relativeY": 323,
+              "absoluteX": 1936,
+              "absoluteY": 965,
+              "width": 295,
+              "height": 491,
+              "distanceToParent": {
+                "left": 167,
+                "top": 323,
+                "right": 818,
+                "bottom": 266,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "children": [
+                {
+                  "id": "3:140",
+                  "name": "Rectangle 3",
+                  "type": "RECTANGLE",
+                  "relativeX": 167,
+                  "relativeY": 323,
+                  "absoluteX": 1936,
+                  "absoluteY": 965,
+                  "width": 295,
+                  "height": 491,
+                  "distanceToParent": {
+                    "left": 167,
+                    "top": 323,
+                    "right": -167,
+                    "bottom": -323,
+                    "parentWidth": 295,
+                    "parentHeight": 491,
+                    "fillsParentWidth": true,
+                    "fillsParentHeight": true
+                  },
+                  "fillColor": "#222222",
+                  "strokeWidth": 1,
+                  "strokeAlign": "INSIDE",
+                  "borderRadius": 38,
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                },
+                {
+                  "id": "3:141",
+                  "name": "Line 3",
+                  "type": "LINE",
+                  "relativeX": 200,
+                  "relativeY": 540,
+                  "absoluteX": 1969,
+                  "absoluteY": 1182,
+                  "width": 222,
+                  "height": 0,
+                  "distanceToParent": {
+                    "left": 200,
+                    "top": 540,
+                    "right": -127,
+                    "bottom": -49,
+                    "parentWidth": 295,
+                    "parentHeight": 491,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": false
+                  },
+                  "strokeColor": "#ffffff",
+                  "strokeWidth": 1,
+                  "strokeAlign": "CENTER",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                },
+                {
+                  "id": "3:142",
+                  "name": "Line 4",
+                  "type": "LINE",
+                  "relativeX": 201,
+                  "relativeY": 501,
+                  "absoluteX": 1970,
+                  "absoluteY": 1143,
+                  "width": 222,
+                  "height": 0,
+                  "distanceToParent": {
+                    "left": 201,
+                    "top": 501,
+                    "right": -128,
+                    "bottom": -10,
+                    "parentWidth": 295,
+                    "parentHeight": 491,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": false
+                  },
+                  "strokeColor": "#ffffff",
+                  "strokeWidth": 1,
+                  "strokeAlign": "CENTER",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "CENTER"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                }
+              ]
+            },
+            {
+              "id": "3:143",
+              "name": "Group 2",
+              "type": "GROUP",
+              "relativeX": 492,
+              "relativeY": 323,
+              "absoluteX": 2261,
+              "absoluteY": 965,
+              "width": 609,
+              "height": 491,
+              "distanceToParent": {
+                "left": 492,
+                "top": 323,
+                "right": 179,
+                "bottom": 266,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "children": [
+                {
+                  "id": "3:144",
+                  "name": "Rectangle 3",
+                  "type": "RECTANGLE",
+                  "relativeX": 492,
+                  "relativeY": 323,
+                  "absoluteX": 2261,
+                  "absoluteY": 965,
+                  "width": 295,
+                  "height": 491,
+                  "distanceToParent": {
+                    "left": 492,
+                    "top": 323,
+                    "right": -178,
+                    "bottom": -323,
+                    "parentWidth": 609,
+                    "parentHeight": 491,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": true
+                  },
+                  "fillColor": "#222222",
+                  "strokeWidth": 1,
+                  "strokeAlign": "INSIDE",
+                  "borderRadius": 38,
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                },
+                {
+                  "id": "3:145",
+                  "name": "Line 3",
+                  "type": "LINE",
+                  "relativeX": 525,
+                  "relativeY": 540,
+                  "absoluteX": 2294,
+                  "absoluteY": 1182,
+                  "width": 222,
+                  "height": 0,
+                  "distanceToParent": {
+                    "left": 525,
+                    "top": 540,
+                    "right": -138,
+                    "bottom": -49,
+                    "parentWidth": 609,
+                    "parentHeight": 491,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": false
+                  },
+                  "strokeColor": "#ffffff",
+                  "strokeWidth": 1,
+                  "strokeAlign": "CENTER",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                },
+                {
+                  "id": "3:146",
+                  "name": "Line 4",
+                  "type": "LINE",
+                  "relativeX": 526,
+                  "relativeY": 501,
+                  "absoluteX": 2295,
+                  "absoluteY": 1143,
+                  "width": 222,
+                  "height": 0,
+                  "distanceToParent": {
+                    "left": 526,
+                    "top": 501,
+                    "right": -139,
+                    "bottom": -10,
+                    "parentWidth": 609,
+                    "parentHeight": 491,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": false
+                  },
+                  "strokeColor": "#ffffff",
+                  "strokeWidth": 1,
+                  "strokeAlign": "CENTER",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "CENTER"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                },
+                {
+                  "id": "3:147",
+                  "name": "Content Generation Voice Consistency Platform Adaptation Performance tracker",
+                  "type": "TEXT",
+                  "relativeX": 501,
+                  "relativeY": 559,
+                  "absoluteX": 2270,
+                  "absoluteY": 1201,
+                  "width": 272,
+                  "height": 152,
+                  "distanceToParent": {
+                    "left": 501,
+                    "top": 559,
+                    "right": -164,
+                    "bottom": -220,
+                    "parentWidth": 609,
+                    "parentHeight": 491,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": false
+                  },
+                  "fillColor": "#ffffff",
+                  "strokeWidth": 1,
+                  "strokeAlign": "OUTSIDE",
+                  "textContent": "Content Generation\nVoice Consistency\nPlatform Adaptation\nPerformance tracker",
+                  "fontSize": 29,
+                  "fontFamily": "Helvetica Now MT Text",
+                  "fontWeight": "Regular",
+                  "letterSpacing": "-10%",
+                  "lineHeight": 38,
+                  "textAlign": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                },
+                {
+                  "id": "3:148",
+                  "name": "Content Generation Voice Consistency Platform Adaptation Performance tracker",
+                  "type": "TEXT",
+                  "relativeX": 829,
+                  "relativeY": 559,
+                  "absoluteX": 2598,
+                  "absoluteY": 1201,
+                  "width": 272,
+                  "height": 152,
+                  "distanceToParent": {
+                    "left": 829,
+                    "top": 559,
+                    "right": -492,
+                    "bottom": -220,
+                    "parentWidth": 609,
+                    "parentHeight": 491,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": false
+                  },
+                  "fillColor": "#ffffff",
+                  "strokeWidth": 1,
+                  "strokeAlign": "OUTSIDE",
+                  "textContent": "Content Generation\nVoice Consistency\nPlatform Adaptation\nPerformance tracker",
+                  "fontSize": 29,
+                  "fontFamily": "Helvetica Now MT Text",
+                  "fontWeight": "Regular",
+                  "letterSpacing": "-10%",
+                  "lineHeight": 38,
+                  "textAlign": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                }
+              ]
+            },
+            {
+              "id": "3:149",
+              "name": "Group 3",
+              "type": "GROUP",
+              "relativeX": 817,
+              "relativeY": 323,
+              "absoluteX": 2586,
+              "absoluteY": 965,
+              "width": 295,
+              "height": 491,
+              "distanceToParent": {
+                "left": 817,
+                "top": 323,
+                "right": 168,
+                "bottom": 266,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "children": [
+                {
+                  "id": "3:150",
+                  "name": "Rectangle 3",
+                  "type": "RECTANGLE",
+                  "relativeX": 817,
+                  "relativeY": 323,
+                  "absoluteX": 2586,
+                  "absoluteY": 965,
+                  "width": 295,
+                  "height": 491,
+                  "distanceToParent": {
+                    "left": 817,
+                    "top": 323,
+                    "right": -817,
+                    "bottom": -323,
+                    "parentWidth": 295,
+                    "parentHeight": 491,
+                    "fillsParentWidth": true,
+                    "fillsParentHeight": true
+                  },
+                  "fillColor": "#222222",
+                  "strokeWidth": 1,
+                  "strokeAlign": "INSIDE",
+                  "borderRadius": 38,
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                },
+                {
+                  "id": "3:151",
+                  "name": "Line 3",
+                  "type": "LINE",
+                  "relativeX": 850,
+                  "relativeY": 540,
+                  "absoluteX": 2619,
+                  "absoluteY": 1182,
+                  "width": 222,
+                  "height": 0,
+                  "distanceToParent": {
+                    "left": 850,
+                    "top": 540,
+                    "right": -777,
+                    "bottom": -49,
+                    "parentWidth": 295,
+                    "parentHeight": 491,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": false
+                  },
+                  "strokeColor": "#ffffff",
+                  "strokeWidth": 1,
+                  "strokeAlign": "CENTER",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                },
+                {
+                  "id": "3:152",
+                  "name": "Line 4",
+                  "type": "LINE",
+                  "relativeX": 851,
+                  "relativeY": 501,
+                  "absoluteX": 2620,
+                  "absoluteY": 1143,
+                  "width": 222,
+                  "height": 0,
+                  "distanceToParent": {
+                    "left": 851,
+                    "top": 501,
+                    "right": -778,
+                    "bottom": -10,
+                    "parentWidth": 295,
+                    "parentHeight": 491,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": false
+                  },
+                  "strokeColor": "#ffffff",
+                  "strokeWidth": 1,
+                  "strokeAlign": "CENTER",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "CENTER"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                },
+                {
+                  "id": "3:153",
+                  "name": "Content Calendar Engagement track Creative Production Growth Strategy",
+                  "type": "TEXT",
+                  "relativeX": 830,
+                  "relativeY": 559,
+                  "absoluteX": 2599,
+                  "absoluteY": 1201,
+                  "width": 263,
+                  "height": 152,
+                  "distanceToParent": {
+                    "left": 830,
+                    "top": 559,
+                    "right": -798,
+                    "bottom": -220,
+                    "parentWidth": 295,
+                    "parentHeight": 491,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": false
+                  },
+                  "fillColor": "#ffffff",
+                  "strokeWidth": 1,
+                  "strokeAlign": "OUTSIDE",
+                  "textContent": "Content Calendar\nEngagement track\nCreative Production\nGrowth Strategy",
+                  "fontSize": 29,
+                  "fontFamily": "Helvetica Now MT Text",
+                  "fontWeight": "Regular",
+                  "letterSpacing": "-10%",
+                  "lineHeight": 38,
+                  "textAlign": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                }
+              ]
+            },
+            {
+              "id": "3:154",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 201,
+              "relativeY": 351,
+              "absoluteX": 1970,
+              "absoluteY": 993,
+              "width": 36,
+              "height": 24,
+              "distanceToParent": {
+                "left": 201,
+                "top": 351,
+                "right": 1043,
+                "bottom": 705,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:155",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 531,
+              "relativeY": 351,
+              "absoluteX": 2300,
+              "absoluteY": 993,
+              "width": 36,
+              "height": 24,
+              "distanceToParent": {
+                "left": 531,
+                "top": 351,
+                "right": 713,
+                "bottom": 705,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:156",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 851,
+              "relativeY": 351,
+              "absoluteX": 2620,
+              "absoluteY": 993,
+              "width": 36,
+              "height": 24,
+              "distanceToParent": {
+                "left": 851,
+                "top": 351,
+                "right": 393,
+                "bottom": 705,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "SCALE",
+                "vertical": "SCALE"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:157",
+              "name": "Branding Positioning &Strategy",
+              "type": "TEXT",
+              "relativeX": 200,
+              "relativeY": 426,
+              "absoluteX": 1969,
+              "absoluteY": 1068,
+              "width": 242,
+              "height": 30,
+              "distanceToParent": {
+                "left": 200,
+                "top": 426,
+                "right": 838,
+                "bottom": 624,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "OUTSIDE",
+              "textContent": "Branding Positioning\n&Strategy\n",
+              "fontSize": 31,
+              "fontFamily": "Helvetica",
+              "fontWeight": "Regular",
+              "letterSpacing": "-10%",
+              "lineHeight": 31,
+              "textAlign": "LEFT",
+              "textAlignVertical": "TOP",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:158",
+              "name": "AI Content Engine",
+              "type": "TEXT",
+              "relativeX": 525,
+              "relativeY": 458,
+              "absoluteX": 2294,
+              "absoluteY": 1100,
+              "width": 222,
+              "height": 25,
+              "distanceToParent": {
+                "left": 525,
+                "top": 458,
+                "right": 533,
+                "bottom": 597,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "OUTSIDE",
+              "textContent": "AI Content Engine\n\n",
+              "fontSize": 31,
+              "fontFamily": "Helvetica",
+              "fontWeight": "Regular",
+              "letterSpacing": "-10%",
+              "lineHeight": 31,
+              "textAlign": "LEFT",
+              "textAlignVertical": "TOP",
+              "constraints": {
+                "horizontal": "CENTER",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:159",
+              "name": "Social Media Management",
+              "type": "TEXT",
+              "relativeX": 851,
+              "relativeY": 427,
+              "absoluteX": 2620,
+              "absoluteY": 1069,
+              "width": 157,
+              "height": 73,
+              "distanceToParent": {
+                "left": 851,
+                "top": 427,
+                "right": 272,
+                "bottom": 580,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "OUTSIDE",
+              "textContent": "Social Media \nManagement",
+              "fontSize": 31,
+              "fontFamily": "Helvetica",
+              "fontWeight": "Regular",
+              "letterSpacing": "-10%",
+              "lineHeight": 31,
+              "textAlign": "LEFT",
+              "textAlignVertical": "TOP",
+              "constraints": {
+                "horizontal": "MAX",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:160",
+              "name": "Define your authentic brand identity Stand out in crowded markets",
+              "type": "TEXT",
+              "relativeX": 199,
+              "relativeY": 506,
+              "absoluteX": 1968,
+              "absoluteY": 1148,
+              "width": 332,
+              "height": 26,
+              "distanceToParent": {
+                "left": 199,
+                "top": 506,
+                "right": 749,
+                "bottom": 548,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "OUTSIDE",
+              "textContent": "Define your authentic brand identity Stand out in crowded markets",
+              "fontSize": 15,
+              "fontFamily": "Outfit",
+              "fontWeight": "Regular",
+              "letterSpacing": "-2%",
+              "lineHeight": 13,
+              "textAlign": "LEFT",
+              "textAlignVertical": "TOP",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:161",
+              "name": "Market Research Value Proposition Brand Messaging Visual Identity",
+              "type": "TEXT",
+              "relativeX": 180,
+              "relativeY": 559,
+              "absoluteX": 1949,
+              "absoluteY": 1201,
+              "width": 241,
+              "height": 152,
+              "distanceToParent": {
+                "left": 180,
+                "top": 559,
+                "right": 859,
+                "bottom": 369,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "OUTSIDE",
+              "textContent": "Market Research\nValue Proposition\nBrand Messaging\nVisual Identity",
+              "fontSize": 29,
+              "fontFamily": "Helvetica Now MT Text",
+              "fontWeight": "Regular",
+              "letterSpacing": "-10%",
+              "lineHeight": 38,
+              "textAlign": "LEFT",
+              "textAlignVertical": "TOP",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:162",
+              "name": "Create content 10x faster Maintain brand voice at scale",
+              "type": "TEXT",
+              "relativeX": 525,
+              "relativeY": 506,
+              "absoluteX": 2294,
+              "absoluteY": 1148,
+              "width": 186,
+              "height": 26,
+              "distanceToParent": {
+                "left": 525,
+                "top": 506,
+                "right": 569,
+                "bottom": 548,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "OUTSIDE",
+              "textContent": "Create content 10x faster Maintain brand voice at scale",
+              "fontSize": 15,
+              "fontFamily": "Outfit",
+              "fontWeight": "Regular",
+              "letterSpacing": "-2%",
+              "lineHeight": 13,
+              "textAlign": "LEFT",
+              "textAlignVertical": "TOP",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:163",
+              "name": "Grow engaged, loyal communities Convert followers into customers",
+              "type": "TEXT",
+              "relativeX": 850,
+              "relativeY": 506,
+              "absoluteX": 2619,
+              "absoluteY": 1148,
+              "width": 216,
+              "height": 26,
+              "distanceToParent": {
+                "left": 850,
+                "top": 506,
+                "right": 214,
+                "bottom": 548,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "OUTSIDE",
+              "textContent": "Grow engaged, loyal communities Convert followers into customers",
+              "fontSize": 15,
+              "fontFamily": "Outfit",
+              "fontWeight": "Regular",
+              "letterSpacing": "-2%",
+              "lineHeight": 13,
+              "textAlign": "LEFT",
+              "textAlignVertical": "TOP",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:164",
+              "name": "Line 5",
+              "type": "VECTOR",
+              "relativeX": 104,
+              "relativeY": 884,
+              "absoluteX": 1873,
+              "absoluteY": 1526,
+              "width": 1072,
+              "height": 144,
+              "distanceToParent": {
+                "left": 104,
+                "top": 884,
+                "right": 104,
+                "bottom": 53,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "rotation": 0,
+              "strokeColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "CENTER",
+              "constraints": {
+                "horizontal": "STRETCH",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:165",
+              "name": "Group 4",
+              "type": "GROUP",
+              "relativeX": 135,
+              "relativeY": 908,
+              "absoluteX": 1904,
+              "absoluteY": 1550,
+              "width": 479,
+              "height": 95,
+              "distanceToParent": {
+                "left": 135,
+                "top": 908,
+                "right": 666,
+                "bottom": 77,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "children": [
+                {
+                  "id": "3:166",
+                  "name": "Rectangle 5",
+                  "type": "RECTANGLE",
+                  "relativeX": 135,
+                  "relativeY": 908,
+                  "absoluteX": 1904,
+                  "absoluteY": 1550,
+                  "width": 95,
+                  "height": 95,
+                  "distanceToParent": {
+                    "left": 135,
+                    "top": 908,
+                    "right": 249,
+                    "bottom": -908,
+                    "parentWidth": 479,
+                    "parentHeight": 95,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": true
+                  },
+                  "fillColor": "#222222",
+                  "strokeWidth": 1,
+                  "strokeAlign": "INSIDE",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                },
+                {
+                  "id": "3:167",
+                  "name": "Rectangle 6",
+                  "type": "RECTANGLE",
+                  "relativeX": 260,
+                  "relativeY": 908,
+                  "absoluteX": 2029,
+                  "absoluteY": 1550,
+                  "width": 95,
+                  "height": 95,
+                  "distanceToParent": {
+                    "left": 260,
+                    "top": 908,
+                    "right": 124,
+                    "bottom": -908,
+                    "parentWidth": 479,
+                    "parentHeight": 95,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": true
+                  },
+                  "fillColor": "#222222",
+                  "strokeWidth": 1,
+                  "strokeAlign": "INSIDE",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MAX"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                },
+                {
+                  "id": "3:168",
+                  "name": "Rectangle 7",
+                  "type": "RECTANGLE",
+                  "relativeX": 384,
+                  "relativeY": 908,
+                  "absoluteX": 2153,
+                  "absoluteY": 1550,
+                  "width": 95,
+                  "height": 95,
+                  "distanceToParent": {
+                    "left": 384,
+                    "top": 908,
+                    "right": 0,
+                    "bottom": -908,
+                    "parentWidth": 479,
+                    "parentHeight": 95,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": true
+                  },
+                  "fillColor": "#222222",
+                  "strokeWidth": 1,
+                  "strokeAlign": "INSIDE",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MAX"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                },
+                {
+                  "id": "3:169",
+                  "name": "Rectangle 8",
+                  "type": "VECTOR",
+                  "relativeX": 519,
+                  "relativeY": 908,
+                  "absoluteX": 2288,
+                  "absoluteY": 1550,
+                  "width": 95,
+                  "height": 95,
+                  "distanceToParent": {
+                    "left": 519,
+                    "top": 908,
+                    "right": -135,
+                    "bottom": -908,
+                    "parentWidth": 479,
+                    "parentHeight": 95,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": true
+                  },
+                  "fillColor": "#222222",
+                  "strokeWidth": 1,
+                  "strokeAlign": "INSIDE",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MAX"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                }
+              ]
+            },
+            {
+              "id": "3:170",
+              "name": "Group 5",
+              "type": "GROUP",
+              "relativeX": 657,
+              "relativeY": 908,
+              "absoluteX": 2426,
+              "absoluteY": 1550,
+              "width": 479,
+              "height": 95,
+              "distanceToParent": {
+                "left": 657,
+                "top": 908,
+                "right": 144,
+                "bottom": 77,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "children": [
+                {
+                  "id": "3:171",
+                  "name": "Rectangle 5",
+                  "type": "RECTANGLE",
+                  "relativeX": 657,
+                  "relativeY": 908,
+                  "absoluteX": 2426,
+                  "absoluteY": 1550,
+                  "width": 95,
+                  "height": 95,
+                  "distanceToParent": {
+                    "left": 657,
+                    "top": 908,
+                    "right": -273,
+                    "bottom": -908,
+                    "parentWidth": 479,
+                    "parentHeight": 95,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": true
+                  },
+                  "fillColor": "#222222",
+                  "strokeWidth": 1,
+                  "strokeAlign": "INSIDE",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                },
+                {
+                  "id": "3:172",
+                  "name": "Rectangle 6",
+                  "type": "RECTANGLE",
+                  "relativeX": 782,
+                  "relativeY": 908,
+                  "absoluteX": 2551,
+                  "absoluteY": 1550,
+                  "width": 95,
+                  "height": 95,
+                  "distanceToParent": {
+                    "left": 782,
+                    "top": 908,
+                    "right": -398,
+                    "bottom": -908,
+                    "parentWidth": 479,
+                    "parentHeight": 95,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": true
+                  },
+                  "fillColor": "#222222",
+                  "strokeWidth": 1,
+                  "strokeAlign": "INSIDE",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MAX"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                },
+                {
+                  "id": "3:173",
+                  "name": "Rectangle 7",
+                  "type": "RECTANGLE",
+                  "relativeX": 906,
+                  "relativeY": 908,
+                  "absoluteX": 2675,
+                  "absoluteY": 1550,
+                  "width": 95,
+                  "height": 95,
+                  "distanceToParent": {
+                    "left": 906,
+                    "top": 908,
+                    "right": -522,
+                    "bottom": -908,
+                    "parentWidth": 479,
+                    "parentHeight": 95,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": true
+                  },
+                  "fillColor": "#222222",
+                  "strokeWidth": 1,
+                  "strokeAlign": "INSIDE",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MAX"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                },
+                {
+                  "id": "3:174",
+                  "name": "Rectangle 8",
+                  "type": "VECTOR",
+                  "relativeX": 1041,
+                  "relativeY": 908,
+                  "absoluteX": 2810,
+                  "absoluteY": 1550,
+                  "width": 95,
+                  "height": 95,
+                  "distanceToParent": {
+                    "left": 1041,
+                    "top": 908,
+                    "right": -657,
+                    "bottom": -908,
+                    "parentWidth": 479,
+                    "parentHeight": 95,
+                    "fillsParentWidth": false,
+                    "fillsParentHeight": true
+                  },
+                  "fillColor": "#222222",
+                  "strokeWidth": 1,
+                  "strokeAlign": "INSIDE",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MAX"
+                  },
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED"
+                }
+              ]
+            },
+            {
+              "id": "3:175",
+              "name": "nano-banana-creation-6-1 15",
+              "type": "RECTANGLE",
+              "relativeX": 452,
+              "relativeY": 129,
+              "absoluteX": 2221,
+              "absoluteY": 771,
+              "width": 386,
+              "height": 179,
+              "distanceToParent": {
+                "left": 452,
+                "top": 129,
+                "right": 442,
+                "bottom": 772,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "rotation": -180,
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:289",
+              "name": "Arrow 1",
+              "type": "VECTOR",
+              "relativeX": 84,
+              "relativeY": 51,
+              "absoluteX": 1853,
+              "absoluteY": 693,
+              "width": 59,
+              "height": 0,
+              "distanceToParent": {
+                "left": 84,
+                "top": 51,
+                "right": 1137,
+                "bottom": 1029,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "rotation": -180,
+              "strokeColor": "#000000",
+              "strokeWidth": 7,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+3rd page
+Extract Data Copy JSON
+{
+  "page": "Page 1",
+  "elements": [
+    {
+      "id": "3:256",
+      "name": "/page-2",
+      "type": "SECTION",
+      "relativeX": 2546,
+      "relativeY": 2329,
+      "absoluteX": 2546,
+      "absoluteY": 2329,
+      "width": 1408,
+      "height": 1244,
+      "fillColor": "#ffffff",
+      "children": [
+        {
+          "id": "3:227",
+          "name": "Desktop",
+          "type": "FRAME",
+          "relativeX": 64,
+          "relativeY": 100,
+          "absoluteX": 2610,
+          "absoluteY": 2429,
+          "width": 1280,
+          "height": 1080,
+          "distanceToParent": {
+            "left": 64,
+            "top": 100,
+            "right": 64,
+            "bottom": 64,
+            "parentWidth": 1408,
+            "parentHeight": 1244,
+            "fillsParentWidth": false,
+            "fillsParentHeight": false
+          },
+          "fillColor": "#ff2300",
+          "strokeWidth": 1,
+          "strokeAlign": "INSIDE",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "children": [
+            {
+              "id": "3:228",
+              "name": "nano-banana-creation-6-1 2",
+              "type": "RECTANGLE",
+              "relativeX": 889,
+              "relativeY": 345,
+              "absoluteX": 3499,
+              "absoluteY": 2774,
+              "width": 386,
+              "height": 179,
+              "distanceToParent": {
+                "left": 889,
+                "top": 345,
+                "right": 5,
+                "bottom": 556,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MAX",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 0,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:229",
+              "name": "nano-banana-creation-6-1 6",
+              "type": "RECTANGLE",
+              "relativeX": 38,
+              "relativeY": 360,
+              "absoluteX": 2648,
+              "absoluteY": 2789,
+              "width": 386,
+              "height": 179,
+              "distanceToParent": {
+                "left": 38,
+                "top": 360,
+                "right": 856,
+                "bottom": 541,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:230",
+              "name": "Rectangle 4",
+              "type": "RECTANGLE",
+              "relativeX": 356,
+              "relativeY": 323,
+              "absoluteX": 2966,
+              "absoluteY": 2752,
+              "width": 628,
+              "height": 433,
+              "distanceToParent": {
+                "left": 356,
+                "top": 323,
+                "right": 296,
+                "bottom": 324,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#232323",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "borderRadius": 50,
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "CENTER"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:231",
+              "name": "Vector",
+              "type": "VECTOR",
+              "relativeX": 151,
+              "relativeY": 31,
+              "absoluteX": 2761,
+              "absoluteY": 2460,
+              "width": 137,
+              "height": 92,
+              "distanceToParent": {
+                "left": 151,
+                "top": 31,
+                "right": 992,
+                "bottom": 957,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:232",
+              "name": "Contact Us",
+              "type": "TEXT",
+              "relativeX": 573,
+              "relativeY": 450,
+              "absoluteX": 3183,
+              "absoluteY": 2879,
+              "width": 323,
+              "height": 32,
+              "distanceToParent": {
+                "left": 573,
+                "top": 450,
+                "right": 384,
+                "bottom": 598,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "OUTSIDE",
+              "textContent": "Contact  Us",
+              "fontSize": 60,
+              "fontFamily": "LT Serif",
+              "fontWeight": "Regular",
+              "letterSpacing": "-3%",
+              "lineHeight": 31,
+              "textAlign": "LEFT",
+              "textAlignVertical": "TOP",
+              "constraints": {
+                "horizontal": "CENTER",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:233",
+              "name": "Rectangle 9",
+              "type": "VECTOR",
+              "relativeX": 424,
+              "relativeY": 564,
+              "absoluteX": 3034,
+              "absoluteY": 2993,
+              "width": 470,
+              "height": 63,
+              "distanceToParent": {
+                "left": 424,
+                "top": 564,
+                "right": 387,
+                "bottom": 454,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#d9d9d9",
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "borderRadius": 15,
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:234",
+              "name": "Got a project ? Send us a message",
+              "type": "TEXT",
+              "relativeX": 471,
+              "relativeY": 508,
+              "absoluteX": 3081,
+              "absoluteY": 2937,
+              "width": 398,
+              "height": 32,
+              "distanceToParent": {
+                "left": 471,
+                "top": 508,
+                "right": 411,
+                "bottom": 540,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#ffffff",
+              "strokeWidth": 1,
+              "strokeAlign": "OUTSIDE",
+              "textContent": "Got a project ? Send us a message",
+              "fontSize": 31,
+              "fontFamily": "Helvetica",
+              "fontWeight": "Regular",
+              "letterSpacing": "-10%",
+              "lineHeight": 26,
+              "textAlign": "LEFT",
+              "textAlignVertical": "TOP",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:235",
+              "name": "nano-banana-creation-3-removebg-preview 1",
+              "type": "RECTANGLE",
+              "relativeX": 830,
+              "relativeY": 565,
+              "absoluteX": 3440,
+              "absoluteY": 2994,
+              "width": 59,
+              "height": 59,
+              "distanceToParent": {
+                "left": 830,
+                "top": 565,
+                "right": 391,
+                "bottom": 456,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:236",
+              "name": "nano-banana-creation-5-removebg-preview 1",
+              "type": "RECTANGLE",
+              "relativeX": 582,
+              "relativeY": 650,
+              "absoluteX": 3192,
+              "absoluteY": 3079,
+              "width": 46,
+              "height": 46,
+              "distanceToParent": {
+                "left": 582,
+                "top": 650,
+                "right": 652,
+                "bottom": 384,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:237",
+              "name": "nano-banana-creation-5-removebg-preview 2",
+              "type": "RECTANGLE",
+              "relativeX": 394,
+              "relativeY": 348,
+              "absoluteX": 3004,
+              "absoluteY": 2777,
+              "width": 42,
+              "height": 42,
+              "distanceToParent": {
+                "left": 394,
+                "top": 348,
+                "right": 844,
+                "bottom": 690,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:238",
+              "name": "nano-banana-creation-5-removebg-preview 12",
+              "type": "RECTANGLE",
+              "relativeX": 382,
+              "relativeY": 503,
+              "absoluteX": 2992,
+              "absoluteY": 2932,
+              "width": 42,
+              "height": 42,
+              "distanceToParent": {
+                "left": 382,
+                "top": 503,
+                "right": 856,
+                "bottom": 535,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:239",
+              "name": "nano-banana-creation-5-removebg-preview 7",
+              "type": "RECTANGLE",
+              "relativeX": 685,
+              "relativeY": 364,
+              "absoluteX": 3295,
+              "absoluteY": 2793,
+              "width": 39,
+              "height": 39,
+              "distanceToParent": {
+                "left": 685,
+                "top": 364,
+                "right": 556,
+                "bottom": 677,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:240",
+              "name": "nano-banana-creation-5-removebg-preview 3",
+              "type": "RECTANGLE",
+              "relativeX": 482,
+              "relativeY": 414,
+              "absoluteX": 3092,
+              "absoluteY": 2843,
+              "width": 29,
+              "height": 29,
+              "distanceToParent": {
+                "left": 482,
+                "top": 414,
+                "right": 769,
+                "bottom": 637,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:241",
+              "name": "nano-banana-creation-5-removebg-preview 5",
+              "type": "RECTANGLE",
+              "relativeX": 454,
+              "relativeY": 653,
+              "absoluteX": 3064,
+              "absoluteY": 3082,
+              "width": 55,
+              "height": 55,
+              "distanceToParent": {
+                "left": 454,
+                "top": 653,
+                "right": 771,
+                "bottom": 372,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:242",
+              "name": "nano-banana-creation-5-removebg-preview 8",
+              "type": "RECTANGLE",
+              "relativeX": 859,
+              "relativeY": 664,
+              "absoluteX": 3469,
+              "absoluteY": 3093,
+              "width": 35,
+              "height": 35,
+              "distanceToParent": {
+                "left": 859,
+                "top": 664,
+                "right": 386,
+                "bottom": 381,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:243",
+              "name": "nano-banana-creation-5-removebg-preview 9",
+              "type": "RECTANGLE",
+              "relativeX": 436,
+              "relativeY": 682,
+              "absoluteX": 3046,
+              "absoluteY": 3111,
+              "width": 36,
+              "height": 36,
+              "distanceToParent": {
+                "left": 436,
+                "top": 682,
+                "right": 808,
+                "bottom": 362,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:244",
+              "name": "nano-banana-creation-5-removebg-preview 10",
+              "type": "RECTANGLE",
+              "relativeX": 871,
+              "relativeY": 437,
+              "absoluteX": 3481,
+              "absoluteY": 2866,
+              "width": 48,
+              "height": 48,
+              "distanceToParent": {
+                "left": 871,
+                "top": 437,
+                "right": 361,
+                "bottom": 595,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:245",
+              "name": "nano-banana-creation-5-removebg-preview 11",
+              "type": "RECTANGLE",
+              "relativeX": 747,
+              "relativeY": 699,
+              "absoluteX": 3357,
+              "absoluteY": 3128,
+              "width": 37,
+              "height": 37,
+              "distanceToParent": {
+                "left": 747,
+                "top": 699,
+                "right": 496,
+                "bottom": 344,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:246",
+              "name": "nano-banana-creation-5-removebg-preview 6",
+              "type": "RECTANGLE",
+              "relativeX": 830,
+              "relativeY": 329,
+              "absoluteX": 3440,
+              "absoluteY": 2758,
+              "width": 38,
+              "height": 38,
+              "distanceToParent": {
+                "left": 830,
+                "top": 329,
+                "right": 412,
+                "bottom": 713,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:247",
+              "name": "Enter your maiI",
+              "type": "TEXT",
+              "relativeX": 437,
+              "relativeY": 578,
+              "absoluteX": 3047,
+              "absoluteY": 3007,
+              "width": 457,
+              "height": 37,
+              "distanceToParent": {
+                "left": 437,
+                "top": 578,
+                "right": 386,
+                "bottom": 465,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "fillColor": "#7e7e7e",
+              "strokeWidth": 1,
+              "strokeAlign": "OUTSIDE",
+              "textContent": "Enter your maiI",
+              "fontSize": 31,
+              "fontFamily": "Outfit",
+              "fontWeight": "Regular",
+              "letterSpacing": "-3%",
+              "lineHeight": 31,
+              "textAlign": "LEFT",
+              "textAlignVertical": "TOP",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            },
+            {
+              "id": "3:248",
+              "name": "nano-banana-creation-6-1 1",
+              "type": "RECTANGLE",
+              "relativeX": 244,
+              "relativeY": 92,
+              "absoluteX": 2854,
+              "absoluteY": 2521,
+              "width": 386,
+              "height": 179,
+              "distanceToParent": {
+                "left": 244,
+                "top": 92,
+                "right": 650,
+                "bottom": 809,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:249",
+              "name": "nano-banana-creation-6-1 4",
+              "type": "RECTANGLE",
+              "relativeX": 1082,
+              "relativeY": 996,
+              "absoluteX": 3692,
+              "absoluteY": 3425,
+              "width": 274,
+              "height": 128,
+              "distanceToParent": {
+                "left": 1082,
+                "top": 996,
+                "right": -76,
+                "bottom": -44,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MAX",
+                "vertical": "MAX"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:250",
+              "name": "nano-banana-creation-6-1 11",
+              "type": "RECTANGLE",
+              "relativeX": -30,
+              "relativeY": 954,
+              "absoluteX": 2580,
+              "absoluteY": 3383,
+              "width": 386,
+              "height": 179,
+              "distanceToParent": {
+                "left": -30,
+                "top": 954,
+                "right": 924,
+                "bottom": -53,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MAX"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:251",
+              "name": "nano-banana-creation-6-1 7",
+              "type": "RECTANGLE",
+              "relativeX": 871,
+              "relativeY": 132,
+              "absoluteX": 3481,
+              "absoluteY": 2561,
+              "width": 254,
+              "height": 174,
+              "distanceToParent": {
+                "left": 871,
+                "top": 132,
+                "right": 155,
+                "bottom": 774,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:252",
+              "name": "nano-banana-creation-6-1 9",
+              "type": "RECTANGLE",
+              "relativeX": 151,
+              "relativeY": 743,
+              "absoluteX": 2761,
+              "absoluteY": 3172,
+              "width": 320,
+              "height": 130,
+              "distanceToParent": {
+                "left": 151,
+                "top": 743,
+                "right": 809,
+                "bottom": 207,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:253",
+              "name": "nano-banana-creation-6-1 12",
+              "type": "RECTANGLE",
+              "relativeX": 670,
+              "relativeY": 824,
+              "absoluteX": 3280,
+              "absoluteY": 3253,
+              "width": 320,
+              "height": 130,
+              "distanceToParent": {
+                "left": 670,
+                "top": 824,
+                "right": 290,
+                "bottom": 126,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:254",
+              "name": "nano-banana-creation-6-1 10",
+              "type": "RECTANGLE",
+              "relativeX": 965,
+              "relativeY": 617,
+              "absoluteX": 3575,
+              "absoluteY": 3046,
+              "width": 320,
+              "height": 130,
+              "distanceToParent": {
+                "left": 965,
+                "top": 617,
+                "right": -5,
+                "bottom": 333,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MAX",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:255",
+              "name": "nano-banana-creation-6-1 8",
+              "type": "RECTANGLE",
+              "relativeX": 1048,
+              "relativeY": 92,
+              "absoluteX": 3658,
+              "absoluteY": 2521,
+              "width": 271,
+              "height": 170,
+              "distanceToParent": {
+                "left": 1048,
+                "top": 92,
+                "right": -39,
+                "bottom": 818,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "strokeWidth": 1,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MAX",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "effects": [
+                {
+                  "type": "dropShadow",
+                  "offsetX": 0,
+                  "offsetY": 4,
+                  "blurRadius": 4,
+                  "spreadRadius": 0
+                }
+              ]
+            },
+            {
+              "id": "3:290",
+              "name": "Arrow 1",
+              "type": "VECTOR",
+              "relativeX": 117,
+              "relativeY": 77,
+              "absoluteX": 2727,
+              "absoluteY": 2506,
+              "width": 59,
+              "height": 0,
+              "distanceToParent": {
+                "left": 117,
+                "top": 77,
+                "right": 1104,
+                "bottom": 1003,
+                "parentWidth": 1280,
+                "parentHeight": 1080,
+                "fillsParentWidth": false,
+                "fillsParentHeight": false
+              },
+              "rotation": -180,
+              "strokeColor": "#000000",
+              "strokeWidth": 7,
+              "strokeAlign": "INSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

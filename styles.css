@@ -45,10 +45,10 @@ body {
 /* Logo (1:10) - 71x47 at (98, 63) */
 .logo {
     position: absolute;
-    left: 7.5%;
+    left: 4%;
     top: 63px;
-    width: 71px;
-    height: 47px;
+    width: 85px;
+    height: 57px;
     z-index: 10;
 }
 
@@ -62,9 +62,9 @@ body {
 .navigation {
     position: absolute;
     top: 77px;
-    right: 7.5%;
+    right: 4%;
     display: flex;
-    gap: 60px;
+    gap: 70px;
     align-items: center;
 }
 
@@ -118,8 +118,8 @@ a:focus {
 /* Line 1 (1:3) - 1084x2 at (98, 130) - STRETCH horizontal */
 .line-1 {
     position: absolute;
-    left: 7.5%;
-    right: 7.5%;
+    left: 4%;
+    right: 4%;
     top: 130px;
     width: auto;
     height: 2px;
@@ -129,14 +129,14 @@ a:focus {
 /* Red Moon Title (1:6) - 579x428 at (77, 181) */
 .title-redmoon {
     position: absolute;
-    left: 6%;
+    left: 3.5%;
     top: 181px;
-    width: 579px;
+    width: 650px;
     height: 428px;
-    font-size: 245px;
+    font-size: 280px;
     font-family: 'Helvetica Now MT Text';
     font-weight: 400;
-    line-height: 214px;
+    line-height: 240px;
     color: #181818;
     text-align: left;
     /* Fixed text stroke for better rendering */
@@ -163,10 +163,10 @@ a:focus {
 /* Ellipse 1 (1:7) - 34x34 at (656, 562) - vertical CENTER constraint */
 .ellipse-1 {
     position: absolute;
-    left: 656px;
+    left: 54%;
     top: 562px;
-    width: 34px;
-    height: 34px;
+    width: 40px;
+    height: 40px;
     background-color: #d9d9d9;
     border-radius: 50%;
 }
@@ -174,15 +174,15 @@ a:focus {
 /* Tagline (1:9) - 735x85 at (88, 602) */
 .tagline {
     position: absolute;
-    left: 6.9%;
+    left: 4%;
     top: 621px;
-    width: 735px;
+    width: 850px;
     height: auto;
-    font-size: 59px;
+    font-size: 68px;
     font-family: 'Helvetica Now MT Text';
     font-weight: 400;
     letter-spacing: -0.09em;
-    line-height: 75px;
+    line-height: 85px;
     color: #ffffff;
     text-align: left;
 }
@@ -190,7 +190,7 @@ a:focus {
 /* Service Section - Straight line design */
 .service-section {
     position: absolute;
-    right: 7.5%;
+    right: 4%;
     top: 135px;
     text-decoration: none;
     cursor: pointer;
@@ -218,7 +218,7 @@ a:focus {
 
 /* Service Title (1:29) - Inline with arrow */
 .service-title {
-    font-size: 46px;
+    font-size: 52px;
     font-family: 'Helvetica Now MT Text';
     font-weight: 400;
     letter-spacing: -0.05em;
@@ -244,7 +244,7 @@ a:focus {
 /* CTA Section */
 .cta-section {
     position: absolute;
-    left: 7.3%;
+    left: 4%;
     top: 702px;
 }
 
@@ -253,13 +253,13 @@ a:focus {
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 899px;
+    width: 1050px;
     height: 184px;
-    font-size: 96px;
+    font-size: 110px;
     font-family: 'Helvetica Now MT Text';
     font-weight: 400;
     letter-spacing: -0.05em;
-    line-height: 86px;
+    line-height: 98px;
     color: #080808;
     text-align: left;
 }
@@ -268,9 +268,9 @@ a:focus {
 .connect-button-bg {
     position: absolute;
     left: -8px;
-    top: 207px;
-    width: 245px;
-    height: 68px;
+    top: 220px;
+    width: 280px;
+    height: 75px;
     background-color: #ffffff;
     border-radius: 100px;
 }
@@ -279,14 +279,14 @@ a:focus {
 .connect-button-text {
     position: absolute;
     left: 31px;
-    top: 220px;
-    width: 159px;
-    height: 38px;
-    font-size: 46px;
+    top: 235px;
+    width: 220px;
+    height: 45px;
+    font-size: 52px;
     font-family: 'Helvetica Now MT Text';
     font-weight: 400;
     letter-spacing: -0.09em;
-    line-height: 38px;
+    line-height: 45px;
     color: #000000;
     text-align: left;
     text-decoration: none;
@@ -350,20 +350,20 @@ a:focus {
 /* Social Links Container */
 .social-links {
     position: absolute;
-    right: 12.2%;
+    right: 8%;
     top: 46px;
     display: flex;
     flex-direction: column;
-    gap: 9px;
+    gap: 12px;
     align-items: flex-start;
 }
 
 .social-links a {
-    font-size: 29px;
+    font-size: 34px;
     font-family: 'Helvetica Now MT Text';
     font-weight: 400;
     letter-spacing: -0.1em;
-    line-height: 29px;
+    line-height: 34px;
     color: #ffffff;
     text-decoration: none;
     transition: opacity 0.3s;

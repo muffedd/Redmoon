@@ -467,12 +467,18 @@ a:focus {
 /* Mobile Design */
 @media (max-width: 768px) {
     .desktop-frame {
-        padding-bottom: 300px;
+        position: relative;
+        padding-bottom: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
 
     .logo {
         left: 20px;
         top: 20px;
+        width: 50px;
+        height: 33px;
     }
 
     .navigation {
@@ -483,43 +489,53 @@ a:focus {
 
     .nav-link {
         font-size: 16px;
+        line-height: 20px;
     }
 
     .line-1 {
         top: 80px;
+        left: 20px;
+        right: 20px;
+        width: calc(100% - 40px);
     }
 
     .title-redmoon {
         font-size: 80px;
         line-height: 70px;
         top: 120px;
+        left: 20px;
         max-width: 80%;
     }
 
-    .title-redmoon:hover {
-        transform: translateY(-5px);
+    .ellipse-1 {
+        display: none;
     }
 
     .tagline {
         font-size: 24px;
         line-height: 32px;
         top: 320px;
-        width: 85%;
+        left: 20px;
+        width: calc(100% - 40px);
     }
 
     .service-section {
-        position: relative;
-        left: auto;
-        right: auto;
-        top: 400px;
-        margin: 0 20px;
+        position: absolute;
+        left: 20px;
+        right: 20px;
+        top: 420px;
+    }
+
+    .service-title {
+        font-size: 24px;
     }
 
     .cta-section {
-        position: relative;
+        position: absolute;
         left: 20px;
-        top: 500px;
         right: 20px;
+        top: 520px;
+        width: calc(100% - 40px);
     }
 
     .cta-text {
@@ -527,49 +543,84 @@ a:focus {
         line-height: 40px;
         position: relative;
         left: 0;
+        top: 0;
         width: 100%;
+        height: auto;
     }
 
-    .connect-button-bg,
+    .connect-button-bg {
+        position: relative;
+        left: 0;
+        top: 40px;
+        width: 200px;
+        height: 56px;
+        margin: 0;
+    }
+
     .connect-button-text {
         position: relative;
         left: 0;
-        top: 20px;
-        margin: 20px auto;
+        top: 50px;
+        width: 200px;
+        height: auto;
+        font-size: 32px;
+        line-height: 32px;
+        margin: 0;
     }
 
     .footer-bg {
-        position: relative;
-        margin-top: 100px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: auto;
+        top: 780px;
+        width: 100%;
         height: auto;
-        padding: 40px 20px;
+        min-height: 300px;
+        padding: 30px 20px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer-tagline {
         position: relative;
-        top: auto;
-        font-size: 20px;
-        margin-bottom: 20px;
+        top: 0;
+        left: 0;
+        transform: none;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 20px 0;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
     }
 
     .footer-logo {
         position: relative;
-        top: auto;
-        margin: 20px auto;
+        top: 0;
+        left: 0;
+        transform: none;
+        width: 70px;
+        height: 46px;
+        margin: 0 0 20px 0;
     }
 
     .social-links {
         position: relative;
         right: auto;
-        top: auto;
+        top: 0;
+        left: 0;
         width: 100%;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
         gap: 20px;
-        margin-top: 20px;
+        margin: 0;
     }
 
     .social-links a {
         font-size: 16px;
+        line-height: 20px;
     }
 }

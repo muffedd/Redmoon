@@ -222,41 +222,88 @@
 }
 
 @media (max-width: 768px) {
+    .about-page {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .about-logo {
+        left: 20px;
+        top: 20px;
+        width: 60px;
+        height: 40px;
+    }
+
+    .back-arrow-about {
+        left: 20px;
+        top: 70px;
+        width: 50px;
+        height: 18px;
+    }
+
     .about-content-container {
-        width: 90%;
-        padding: 40px 30px;
+        position: relative;
+        left: 50%;
+        top: auto;
+        transform: translateX(-50%);
+        width: calc(100% - 40px);
+        max-width: none;
+        margin: 140px 0 40px;
+        padding: 30px 25px;
+        border-radius: 30px;
     }
 
     .about-page-title {
-        font-size: 48px;
-        line-height: 48px;
-        margin-bottom: 30px;
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 25px;
     }
 
     .about-paragraph {
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    .values-section {
+        margin-top: 35px;
+        padding-top: 30px;
     }
 
     .values-title {
-        font-size: 36px;
+        font-size: 28px;
+        margin-bottom: 25px;
     }
 
     .values-grid {
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 15px;
+    }
+
+    .value-item {
+        padding: 20px 15px;
+        border-radius: 15px;
     }
 
     .value-item h3 {
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .value-item p {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 14px;
+        line-height: 22px;
     }
 
     .cloud-img {
-        opacity: 0.5;
+        opacity: 0.4;
+    }
+
+    .cloud-big-1,
+    .cloud-big-2,
+    .cloud-big-3 {
+        width: 200px;
+        height: auto;
     }
 }

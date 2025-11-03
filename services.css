@@ -403,45 +403,55 @@
 
 @media (max-width: 768px) {
     .services-page {
-        padding: 20px;
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        padding: 0;
+        overflow-x: hidden;
     }
 
     .back-arrow {
         left: 20px;
         top: 20px;
+        width: 60px;
+        height: 24px;
     }
 
     .services-title {
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 56px;
+        line-height: 56px;
         left: 20px;
-        top: 80px;
+        top: 70px;
+        width: calc(100% - 40px);
+        height: auto;
     }
 
     .service-cards {
         position: relative;
-        top: 180px;
+        top: 160px;
         left: 0;
         flex-direction: column;
         align-items: center;
         gap: 20px;
-        padding: 0 20px;
+        padding: 0 20px 40px;
+        margin-bottom: 0;
     }
 
     .service-card {
         width: 100%;
-        max-width: 350px;
+        max-width: 100%;
         height: auto;
-        min-height: 400px;
-        padding: 30px;
+        min-height: 380px;
+        padding: 25px;
+        border-radius: 30px;
     }
 
     .service-card:hover {
-        transform: translateY(-5px);
+        transform: translateY(-3px);
     }
 
     .service-card.expanded {
-        transform: scale(1.02);
+        transform: scale(1);
         width: 100%;
     }
 
@@ -449,15 +459,17 @@
         position: relative;
         left: 0;
         top: 0;
-        margin-bottom: 20px;
+        width: 60px;
+        height: 60px;
+        margin-bottom: 15px;
     }
 
     .service-card-title {
         position: relative;
         left: 0;
         top: 0;
-        font-size: 24px;
-        line-height: 28px;
+        font-size: 22px;
+        line-height: 26px;
         margin-bottom: 10px;
     }
 
@@ -465,9 +477,9 @@
         position: relative;
         left: 0;
         top: 0;
-        font-size: 14px;
+        font-size: 13px;
         line-height: 18px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     .service-card-divider-top,
@@ -476,7 +488,7 @@
         left: 0;
         top: 0;
         width: 100%;
-        margin: 10px 0;
+        margin: 8px 0;
     }
 
     .service-features {
@@ -487,9 +499,9 @@
     }
 
     .service-features li {
-        font-size: 18px;
-        line-height: 28px;
-        padding: 5px 0;
+        font-size: 16px;
+        line-height: 26px;
+        padding: 4px 0;
     }
 
     .wave-line {

@@ -35,8 +35,9 @@ body {
 /* Desktop Frame (1:2) - 1280x1396 */
 .desktop-frame {
     position: relative;
-    width: 1280px;
-    height: 1396px;
+    width: 100%;
+    max-width: 1280px;
+    min-height: 1396px;
     background-color: #ff2300;
     margin: 0 auto;
 }
@@ -466,12 +467,16 @@ a:focus {
 
 /* Mobile Design */
 @media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .desktop-frame {
-        position: relative;
-        padding-bottom: 0;
+        width: 100%;
         min-height: 100vh;
-        display: flex;
-        flex-direction: column;
+        height: auto;
+        padding: 0;
+        margin: 0;
     }
 
     .logo {
@@ -482,29 +487,31 @@ a:focus {
     }
 
     .navigation {
-        top: 30px;
+        top: 25px;
         right: 20px;
-        gap: 15px;
+        gap: 12px;
     }
 
     .nav-link {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 14px;
+        line-height: 18px;
     }
 
     .line-1 {
-        top: 80px;
+        top: 70px;
         left: 20px;
         right: 20px;
         width: calc(100% - 40px);
     }
 
     .title-redmoon {
-        font-size: 80px;
-        line-height: 70px;
-        top: 120px;
+        font-size: 70px;
+        line-height: 60px;
+        top: 100px;
         left: 20px;
-        max-width: 80%;
+        width: calc(100% - 40px);
+        max-width: none;
+        height: auto;
     }
 
     .ellipse-1 {
@@ -512,35 +519,42 @@ a:focus {
     }
 
     .tagline {
-        font-size: 24px;
-        line-height: 32px;
-        top: 320px;
+        font-size: 22px;
+        line-height: 30px;
+        top: 280px;
         left: 20px;
         width: calc(100% - 40px);
+        height: auto;
     }
 
     .service-section {
         position: absolute;
         left: 20px;
         right: 20px;
-        top: 420px;
+        top: 370px;
     }
 
     .service-title {
-        font-size: 24px;
+        font-size: 22px;
+    }
+
+    .polygon-arrow {
+        font-size: 18px;
+        width: 24px;
+        height: 24px;
     }
 
     .cta-section {
         position: absolute;
         left: 20px;
         right: 20px;
-        top: 520px;
+        top: 450px;
         width: calc(100% - 40px);
     }
 
     .cta-text {
-        font-size: 36px;
-        line-height: 40px;
+        font-size: 32px;
+        line-height: 38px;
         position: relative;
         left: 0;
         top: 0;
@@ -549,38 +563,35 @@ a:focus {
     }
 
     .connect-button-bg {
-        position: relative;
+        position: absolute;
         left: 0;
-        top: 40px;
-        width: 200px;
-        height: 56px;
-        margin: 0;
+        top: 150px;
+        width: 180px;
+        height: 50px;
     }
 
     .connect-button-text {
-        position: relative;
+        position: absolute;
         left: 0;
-        top: 50px;
-        width: 200px;
+        top: 160px;
+        width: 180px;
         height: auto;
-        font-size: 32px;
-        line-height: 32px;
-        margin: 0;
+        font-size: 28px;
+        line-height: 28px;
     }
 
     .footer-bg {
         position: absolute;
         left: 0;
         right: 0;
-        bottom: auto;
-        top: 780px;
+        top: 680px;
         width: 100%;
         height: auto;
-        min-height: 300px;
-        padding: 30px 20px 40px;
+        padding: 30px 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        transform: none;
     }
 
     .footer-tagline {
@@ -588,9 +599,9 @@ a:focus {
         top: 0;
         left: 0;
         transform: none;
-        font-size: 18px;
-        line-height: 24px;
-        margin: 0 0 20px 0;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0 0 15px 0;
         width: 100%;
         max-width: 100%;
         text-align: center;
@@ -601,9 +612,9 @@ a:focus {
         top: 0;
         left: 0;
         transform: none;
-        width: 70px;
-        height: 46px;
-        margin: 0 0 20px 0;
+        width: 60px;
+        height: 40px;
+        margin: 0 0 15px 0;
     }
 
     .social-links {
@@ -615,12 +626,12 @@ a:focus {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 15px;
         margin: 0;
     }
 
     .social-links a {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 14px;
+        line-height: 18px;
     }
 }

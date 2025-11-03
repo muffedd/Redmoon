@@ -11,7 +11,8 @@
 /* Logo */
 .about-logo {
     position: absolute;
-    left: 151px;
+    left: 50%;
+    transform: translateX(-50%);
     top: 31px;
     width: 137px;
     height: 92px;
@@ -27,7 +28,7 @@
 /* Back Arrow - Thin style matching contact page */
 .back-arrow-about {
     position: absolute;
-    left: 117px;
+    left: 7.5%;
     top: 77px;
     width: 60px;
     height: 20px;

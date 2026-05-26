@@ -14,6 +14,32 @@
 
     const defaults = { duration: 0.9, ease: 'power3.out' };
     const staggerDefaults = { duration: 0.7, ease: 'power2.out', stagger: 0.12 };
+    const isMobile = window.matchMedia('(max-width: 767px)').matches;
+    const revealStart = isMobile ? 'top 96%' : 'top 85%';
+    const revealStartEarly = isMobile ? 'top 98%' : 'top 80%';
+
+    function visibleElements(selector) {
+        return Array.from(document.querySelectorAll(selector)).filter(el => {
+            if (el.hidden) return false;
+            return window.getComputedStyle(el).display !== 'none';
+        });
+    }
+
+    function revealFrom(targets, fromVars, trigger, start) {
+        if (!targets.length) return;
+        gsap.fromTo(targets, fromVars, {
+            x: 0,
+            y: 0,
+            opacity: 1,
+            ...staggerDefaults,
+            clearProps: 'transform,opacity',
+            scrollTrigger: {
+                trigger,
+                start,
+                toggleActions: 'play none none none',
+            },
+        });
+    }
 
     // ── 1. Hero load-in (no scroll trigger needed) ─────────────────────
     // Hero headline is NOT touched — script.js handles its scroll color swap
@@ -29,68 +55,43 @@
     }
 
     // ── 2. Section Headlines (simple fade-up, no text splitting) ────────
-    const sectionHeadlines = document.querySelectorAll(
+    const sectionHeadlines = visibleElements(
         '.services__title, .editorial__title, .proof__title, .process-section__title, .trust-stats__headline'
     );
     sectionHeadlines.forEach(headline => {
-        gsap.from(headline, {
+        gsap.fromTo(headline, {
             y: 40,
             opacity: 0,
+        }, {
+            y: 0,
+            opacity: 1,
             duration: 0.9,
             ease: 'power3.out',
+            clearProps: 'transform,opacity',
             scrollTrigger: {
                 trigger: headline,
-                start: 'top 85%',
+                start: revealStart,
                 toggleActions: 'play none none none',
             },
         });
     });
 
     // ── 3. Service Cards ─────────────────────────────────────────────
-    const serviceCards = document.querySelectorAll('.service-card');
+    const serviceCards = visibleElements('.service-card');
     if (serviceCards.length) {
-        gsap.from(serviceCards, {
-            y: 50,
-            opacity: 0,
-            ...staggerDefaults,
-            scrollTrigger: {
-                trigger: serviceCards[0].parentElement,
-                start: 'top 80%',
-                toggleActions: 'play none none none',
-            },
-        });
+        revealFrom(serviceCards, { y: 50, opacity: 0 }, serviceCards[0].parentElement, revealStartEarly);
     }
 
     // ── 4. Project Cards (mobile grid) ────────────────────────────────
-    const projectCards = document.querySelectorAll('.project-card');
+    const projectCards = visibleElements('.project-card');
     if (projectCards.length) {
-        gsap.from(projectCards, {
-            y: 60,
-            opacity: 0,
-            ...staggerDefaults,
-            scrollTrigger: {
-                trigger: projectCards[0].parentElement,
-                start: 'top 80%',
-                toggleActions: 'play none none none',
-            },
-        });
+        revealFrom(projectCards, { y: 42, opacity: 0 }, projectCards[0].parentElement, revealStartEarly);
     }
 
     // ── 5. Horizontal Gallery Cards ───────────────────────────────────
-    const hGalleryCards = document.querySelectorAll('.h-gallery-card');
+    const hGalleryCards = visibleElements('.h-gallery-card');
     if (hGalleryCards.length) {
-        gsap.from(hGalleryCards, {
-            x: 80,
-            opacity: 0,
-            duration: 0.8,
-            ease: 'power3.out',
-            stagger: 0.15,
-            scrollTrigger: {
-                trigger: '.horizontal-gallery__track',
-                start: 'top 80%',
-                toggleActions: 'play none none none',
-            },
-        });
+        revealFrom(hGalleryCards, { x: 48, opacity: 0 }, '.horizontal-gallery__track', revealStartEarly);
     }
 
     // ── 6. Editorial Cards ────────────────────────────────────────────
@@ -109,18 +110,9 @@
     }
 
     // ── 7. Portrait / Team Cards ──────────────────────────────────────
-    const portraitCards = document.querySelectorAll('.portrait-card, .team-photo');
+    const portraitCards = visibleElements('.portrait-card, .team-photo');
     if (portraitCards.length) {
-        gsap.from(portraitCards, {
-            y: 50,
-            opacity: 0,
-            ...staggerDefaults,
-            scrollTrigger: {
-                trigger: portraitCards[0].parentElement || portraitCards[0],
-                start: 'top 85%',
-                toggleActions: 'play none none none',
-            },
-        });
+        revealFrom(portraitCards, { y: 42, opacity: 0 }, portraitCards[0].parentElement || portraitCards[0], revealStart);
     }
 
     // ── 8. Trust Stats ───────────────────────────────────────────────
@@ -194,14 +186,18 @@
     // ── 12. Quote Card ────────────────────────────────────────────────
     const quoteCard = document.querySelector('.quote-card');
     if (quoteCard) {
-        gsap.from(quoteCard, {
+        gsap.fromTo(quoteCard, {
             y: 50,
             opacity: 0,
+        }, {
+            y: 0,
+            opacity: 1,
             duration: 1,
             ease: 'power3.out',
+            clearProps: 'transform,opacity',
             scrollTrigger: {
                 trigger: quoteCard,
-                start: 'top 85%',
+                start: revealStart,
                 toggleActions: 'play none none none',
             },
         });

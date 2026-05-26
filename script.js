@@ -95,7 +95,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const textEnd = 0.70;
             const textProgress = Math.max(0, Math.min(1, (progress - textStart) / (textEnd - textStart)));
             const insetValue = (1 - textProgress) * 100;
-            stickyTextDark.style.clipPath = `inset(${insetValue}% 0 0 0)`;
+            const textClip = `inset(${insetValue}% 0 0 0)`;
+            stickyTextDark.style.clipPath = textClip;
+            stickyTextDark.style.webkitClipPath = textClip;
 
             if (ctaDark && ctaLight) {
                 const ctaStart = 0.35;
@@ -132,7 +134,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const textEnd = 0.70;
             const textProgress = Math.max(0, Math.min(1, (progress - textStart) / (textEnd - textStart)));
             const insetValue = (1 - textProgress) * 100;
-            statementTextLight.style.clipPath = `inset(${insetValue}% 0 0 0)`;
+            const textClip = `inset(${insetValue}% 0 0 0)`;
+            statementTextLight.style.clipPath = textClip;
+            statementTextLight.style.webkitClipPath = textClip;
 
             if (statementCtaLight && statementCtaDark) {
                 const ctaStart = 0.35;

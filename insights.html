@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Insights — thoughts on design, craft, and the quiet work behind visible things from Redmoon.">
+    <meta property="og:title" content="Insights — Redmoon">
+    <meta property="og:description" content="Thoughts on design, craft, and the quiet work behind visible things.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M20 5C20 5 12 12 12 20C12 28 20 35 20 35C20 35 28 28 28 20C28 12 20 5 20 5Z' fill='%230B0B0A'/%3E%3C/svg%3E">
+    <title>Insights — Redmoon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .insight-list {
+            padding: 0 var(--page-margin) var(--space-xl);
+            background: var(--cream);
+        }
+        .insight-list__inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .insight-item {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--space-sm);
+            padding: var(--space-md) 0;
+            border-bottom: 1px solid rgba(11, 11, 10, 0.08);
+            text-decoration: none;
+            color: inherit;
+            transition: opacity var(--duration-fast) ease;
+        }
+        .insight-item:hover {
+            opacity: 0.7;
+        }
+        @media (min-width: 768px) {
+            .insight-item {
+                grid-template-columns: 180px 1fr;
+                align-items: baseline;
+            }
+        }
+        .insight-item__date {
+            font: var(--font-metadata);
+            color: var(--muted-ink);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+        .insight-item__title {
+            font: var(--font-body);
+            font-weight: 500;
+            color: var(--ink);
+            margin-bottom: 4px;
+        }
+        .insight-item__excerpt {
+            font: var(--font-caption);
+            color: var(--muted-ink);
+            max-width: 55ch;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="nav" id="nav">
+        <div class="nav__inner grid">
+            <a href="javascript:history.back()" class="nav__back" aria-label="Go back">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M12 4L6 10l6 6"/>
+                </svg>
+            </a>
+            <a href="index.html" class="nav__logo">REDMOON</a>
+            <div class="nav__right">
+                <a href="projects.html" class="nav__link">Work</a>
+                <a href="about.html" class="nav__link">About</a>
+                <a href="contact.html" class="nav__link">Contact</a>
+                <button class="nav__menu-btn" id="menuBtn" aria-label="Open menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-overlay" id="menuOverlay">
+        <div class="menu-overlay__inner">
+            <button class="menu-overlay__close" id="menuClose" aria-label="Close menu">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M15 5L5 15M5 5l10 10"/>
+                </svg>
+            </button>
+            <nav class="menu-overlay__nav">
+                <a href="projects.html">Work</a>
+                <a href="about.html">About</a>
+                <a href="process.html">Process</a>
+
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="menu-overlay__social">
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+                <a href="#">X</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="page-hero">
+        <div class="grid">
+            <a href="index.html" class="page-back">
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M12 4L6 10l6 6"/>
+                </svg>
+                Home
+            </a>
+            <h1 class="page-hero__title">Insights</h1>
+            <p class="page-hero__text">Thoughts on process, craft, and the quiet work behind visible things.</p>
+        </div>
+    </section>
+
+    <section class="insight-list">
+        <div class="insight-list__inner">
+            <a href="#" class="insight-item">
+                <span class="insight-item__date">Jan 2026</span>
+                <div>
+                    <h3 class="insight-item__title">On the value of restraint</h3>
+                    <p class="insight-item__excerpt">Why the best design is often the design you almost did not notice. A reflection on knowing when to stop.</p>
+                </div>
+            </a>
+            <a href="#" class="insight-item">
+                <span class="insight-item__date">Dec 2025</span>
+                <div>
+                    <h3 class="insight-item__title">Building a brand that lasts</h3>
+                    <p class="insight-item__excerpt">Trends fade. Principles endure. How to build a visual identity that feels fresh five years from now.</p>
+                </div>
+            </a>
+            <a href="#" class="insight-item">
+                <span class="insight-item__date">Nov 2025</span>
+                <div>
+                    <h3 class="insight-item__title">The first meeting is the most important</h3>
+                    <p class="insight-item__excerpt">What we learn in the first hour of working with a client shapes everything that follows. Here is how we listen.</p>
+                </div>
+            </a>
+            <a href="#" class="insight-item">
+                <span class="insight-item__date">Oct 2025</span>
+                <div>
+                    <h3 class="insight-item__title">Why we still sketch on paper</h3>
+                    <p class="insight-item__excerpt">In an age of infinite digital tools, there is something irreplaceable about a pencil and a blank page.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="grid">
+            <div class="footer__top">
+                <div class="footer__logo">
+                    <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 5C20 5 12 12 12 20C12 28 20 35 20 35C20 35 28 28 28 20C28 12 20 5 20 5Z" fill="white" opacity="0.9"/>
+                        <path d="M5 20C5 20 12 12 20 12C28 12 35 20 35 20C35 20 28 28 20 28C12 28 5 20 5 20Z" fill="white" opacity="0.9"/>
+                    </svg>
+                </div>
+                <nav class="footer__nav">
+                    <a href="projects.html">Work</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="privacy.html">Privacy</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">X</a>
+                </nav>
+            </div>
+            <div class="footer__bottom">
+                <span>2026 Redmoon</span>
+                <a href="privacy.html">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <script src="gsap-animations.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

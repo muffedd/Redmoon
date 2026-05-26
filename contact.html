@@ -3,101 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Red Moon</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="contact.css">
-    <script src="contact-script.js" defer></script>
+    <meta name="description" content="Contact Redmoon — start a conversation about your next project. Brand, digital, and product design studio based in Bangalore.">
+    <meta property="og:title" content="Contact — Redmoon">
+    <meta property="og:description" content="Start a conversation. We will respond within two business days.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M20 5C20 5 12 12 12 20C12 28 20 35 20 35C20 35 28 28 28 20C28 12 20 5 20 5Z' fill='%230B0B0A'/%3E%3C/svg%3E">
+    <title>Contact — Redmoon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Desktop Frame (3:227) - 1280x1080 -->
-    <div class="desktop-frame contact-page" data-id="3:227">
 
-        <!-- Clouds - Multiple floating clouds -->
-        <svg class="cloud-img cloud-big-1" width="386" height="179" viewBox="0 0 200 100">
-            <path d="M170 80c0 11-9 20-20 20H50c-16.5 0-30-13.5-30-30s13.5-30 30-30c0.8 0 1.6 0 2.4 0.1C54.9 23.9 68.9 10 86 10c14.4 0 26.8 10 30 24.1 2.3-1.4 5-2.1 8-2.1 8.3 0 15 6.7 15 15 0 0.3 0 0.7 0 1 16.5 0 31 11.2 31 28z"
-                  fill="white" opacity="0.9"/>
-        </svg>
-        <svg class="cloud-img cloud-big-2" width="386" height="179" viewBox="0 0 250 120">
-            <g opacity="0.85">
-                <ellipse cx="60" cy="70" rx="35" ry="25" fill="white"/>
-                <ellipse cx="100" cy="65" rx="45" ry="35" fill="white"/>
-                <ellipse cx="150" cy="68" rx="40" ry="30" fill="white"/>
-                <ellipse cx="190" cy="75" rx="30" ry="22" fill="white"/>
-                <rect x="60" y="70" width="130" height="30" fill="white"/>
-            </g>
-        </svg>
-        <svg class="cloud-img cloud-big-3" width="386" height="179" viewBox="0 0 200 100">
-            <path d="M170 80c0 11-9 20-20 20H50c-16.5 0-30-13.5-30-30s13.5-30 30-30c0.8 0 1.6 0 2.4 0.1C54.9 23.9 68.9 10 86 10c14.4 0 26.8 10 30 24.1 2.3-1.4 5-2.1 8-2.1 8.3 0 15 6.7 15 15 0 0.3 0 0.7 0 1 16.5 0 31 11.2 31 28z"
-                  fill="white" opacity="0.9"/>
-        </svg>
-        <!-- Additional clouds for more aesthetic -->
-        <svg class="cloud-img cloud-big-4" width="320" height="150" viewBox="0 0 200 100">
-            <g opacity="0.75">
-                <circle cx="60" cy="60" r="25" fill="white"/>
-                <circle cx="103" cy="55" r="28" fill="white"/>
-                <circle cx="140" cy="65" r="22" fill="white"/>
-            </g>
-        </svg>
-        <svg class="cloud-img cloud-big-5" width="300" height="140" viewBox="0 0 200 100">
-            <path d="M170 80c0 11-9 20-20 20H50c-16.5 0-30-13.5-30-30s13.5-30 30-30c0.8 0 1.6 0 2.4 0.1C54.9 23.9 68.9 10 86 10c14.4 0 26.8 10 30 24.1 2.3-1.4 5-2.1 8-2.1 8.3 0 15 6.7 15 15 0 0.3 0 0.7 0 1 16.5 0 31 11.2 31 28z"
-                  fill="white" opacity="0.8"/>
-        </svg>
-        <svg class="cloud-img cloud-big-6" width="280" height="130" viewBox="0 0 250 120">
-            <g opacity="0.7">
-                <ellipse cx="60" cy="70" rx="35" ry="25" fill="white"/>
-                <ellipse cx="100" cy="65" rx="45" ry="35" fill="white"/>
-                <ellipse cx="150" cy="68" rx="40" ry="30" fill="white"/>
-                <rect x="60" y="70" width="90" height="30" fill="white"/>
-            </g>
-        </svg>
-
-        <!-- Logo (3:231) - 137x92 at (151, 31) -->
-        <div class="logo contact-logo" data-id="3:231">
-            <img src="logomain.svg" alt="Red Moon Logo" width="137" height="92">
+    <header class="nav" id="nav">
+        <div class="nav__inner grid">
+            <a href="javascript:history.back()" class="nav__back" aria-label="Go back">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M12 4L6 10l6 6"/>
+                </svg>
+            </a>
+            <a href="index.html" class="nav__logo">REDMOON</a>
+            <div class="nav__right">
+                <a href="projects.html" class="nav__link">Work</a>
+                <a href="about.html" class="nav__link">About</a>
+                <a href="contact.html" class="nav__link">Contact</a>
+                <button class="nav__menu-btn" id="menuBtn" aria-label="Open menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
         </div>
+    </header>
 
-        <!-- Back Arrow (3:290) - THIN -->
-        <a href="index.html" class="back-arrow-contact" data-id="3:290">
-            <svg width="60" height="20" viewBox="0 0 60 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M5 10L10 5L10 8L55 8L55 12L10 12L10 15L5 10Z" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round"/>
-            </svg>
-        </a>
+    <div class="menu-overlay" id="menuOverlay">
+        <div class="menu-overlay__inner">
+            <button class="menu-overlay__close" id="menuClose" aria-label="Close menu">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M15 5L5 15M5 5l10 10"/>
+                </svg>
+            </button>
+            <nav class="menu-overlay__nav">
+                <a href="projects.html">Work</a>
+                <a href="about.html">About</a>
+                <a href="process.html">Process</a>
 
-        <!-- Contact Form Container (3:230) - Rectangle 4: 628x433 at (356, 323) -->
-        <div class="contact-container" data-id="3:230">
-
-            <!-- Contact Us Title (3:232) - 323x32 at (573, 450) -->
-            <h1 class="contact-title" data-id="3:232">Contact Us</h1>
-
-            <!-- Subtitle (3:234) - "Got a project ? Send us a message" -->
-            <p class="contact-subtitle" data-id="3:234">Got a project ? Send us a message</p>
-
-            <!-- Email Input Box (3:233) - Rectangle 9: 470x63 at (424, 564) -->
-            <form id="contactForm" class="contact-form-box">
-                <input type="hidden" name="user_name" id="userName" value="">
-                <input type="hidden" name="to_email" value="deeplearn.ra@gmail.com">
-                <div class="email-input-wrapper" data-id="3:233">
-                    <input
-                        type="email"
-                        id="emailInput"
-                        name="user_email"
-                        placeholder="Enter your mail"
-                        data-id="3:247"
-                        required
-                    />
-                    <!-- Send Button Icon (3:235) - Mail Icon -->
-                    <button type="submit" class="send-button" data-id="3:235">
-                        <img src="mail.png" alt="Send">
-                    </button>
-                </div>
-                <div class="form-status" id="formStatus"></div>
-            </form>
-
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="menu-overlay__social">
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+                <a href="#">X</a>
+            </div>
         </div>
-
     </div>
 
-    <!-- EmailJS SDK -->
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <section class="contact-hero">
+        <div class="grid">
+            <h1 class="contact-hero__title">Start a conversation.</h1>
+            <p class="contact-hero__text">Tell us what you are building. We will respond within two business days.</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="contact-section__inner">
+            <!-- Replace the Formspree endpoint below with your own at https://formspree.io -->
+            <form class="contact-form" action="https://formspree.io/f/xnnpzgjd" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@company.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="company">Company</label>
+                    <input type="text" id="company" name="company" placeholder="Company name">
+                </div>
+                <div class="form-group">
+                    <label for="budget">Budget range</label>
+                    <input type="text" id="budget" name="budget" placeholder="e.g. 10,000 - 25,000 USD">
+                </div>
+                <div class="form-group">
+                    <label for="message">Project details</label>
+                    <textarea id="message" name="message" placeholder="Tell us about your project, timeline, and goals." required></textarea>
+                </div>
+                <button type="submit" class="contact-form__submit">Send inquiry</button>
+            </form>
+
+            <div class="contact-info">
+                <div class="contact-info__block">
+                    <span class="contact-info__label">Email</span>
+                    <p class="contact-info__value"><a href="mailto:hello@redmoon.studio">hello@redmoon.studio</a></p>
+                </div>
+                <div class="contact-info__block">
+                    <span class="contact-info__label">Location</span>
+                    <p class="contact-info__value">Bangalore, India</p>
+                </div>
+                <div class="contact-info__block">
+                    <span class="contact-info__label">Social</span>
+                    <p class="contact-info__value">
+                        <a href="#">LinkedIn</a><br>
+                        <a href="#">Instagram</a><br>
+                        <a href="#">X</a>
+                    </p>
+                </div>
+                <div class="contact-info__block">
+                    <span class="contact-info__label">Availability</span>
+                    <p class="contact-info__value">Currently accepting new projects for Q3 2026.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="grid">
+            <div class="footer__top">
+                <div class="footer__logo">
+                    <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 5C20 5 12 12 12 20C12 28 20 35 20 35C20 35 28 28 28 20C28 12 20 5 20 5Z" fill="white" opacity="0.9"/>
+                        <path d="M5 20C5 20 12 12 20 12C28 12 35 20 35 20C35 20 28 28 20 28C12 28 5 20 5 20Z" fill="white" opacity="0.9"/>
+                    </svg>
+                </div>
+                <nav class="footer__nav">
+                    <a href="projects.html">Work</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="privacy.html">Privacy</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">X</a>
+                </nav>
+            </div>
+            <div class="footer__bottom">
+                <span>2026 Redmoon</span>
+                <a href="privacy.html">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <script src="gsap-animations.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>

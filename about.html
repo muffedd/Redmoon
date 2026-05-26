@@ -3,77 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Red Moon</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="about.css">
+    <meta name="description" content="About Redmoon — a creative design and technology studio built for the craft of making things visible.">
+    <meta property="og:title" content="About — Redmoon">
+    <meta property="og:description" content="A studio built for the craft of making things visible. Brand, digital, and everything between.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M20 5C20 5 12 12 12 20C12 28 20 35 20 35C20 35 28 28 28 20C28 12 20 5 20 5Z' fill='%230B0B0A'/%3E%3C/svg%3E">
+    <title>About — Redmoon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- About Page Frame -->
-    <div class="desktop-frame about-page">
 
-        <!-- Clouds -->
-        <svg class="cloud-img cloud-big-1" width="386" height="179" viewBox="0 0 200 100">
-            <path d="M170 80c0 11-9 20-20 20H50c-16.5 0-30-13.5-30-30s13.5-30 30-30c0.8 0 1.6 0 2.4 0.1C54.9 23.9 68.9 10 86 10c14.4 0 26.8 10 30 24.1 2.3-1.4 5-2.1 8-2.1 8.3 0 15 6.7 15 15 0 0.3 0 0.7 0 1 16.5 0 31 11.2 31 28z"
-                  fill="white" opacity="0.9"/>
-        </svg>
-        <svg class="cloud-img cloud-big-2" width="386" height="179" viewBox="0 0 250 120">
-            <g opacity="0.85">
-                <ellipse cx="60" cy="70" rx="35" ry="25" fill="white"/>
-                <ellipse cx="100" cy="65" rx="45" ry="35" fill="white"/>
-                <ellipse cx="150" cy="68" rx="40" ry="30" fill="white"/>
-                <ellipse cx="190" cy="75" rx="30" ry="22" fill="white"/>
-                <rect x="60" y="70" width="130" height="30" fill="white"/>
-            </g>
-        </svg>
-        <svg class="cloud-img cloud-big-3" width="386" height="179" viewBox="0 0 200 100">
-            <path d="M170 80c0 11-9 20-20 20H50c-16.5 0-30-13.5-30-30s13.5-30 30-30c0.8 0 1.6 0 2.4 0.1C54.9 23.9 68.9 10 86 10c14.4 0 26.8 10 30 24.1 2.3-1.4 5-2.1 8-2.1 8.3 0 15 6.7 15 15 0 0.3 0 0.7 0 1 16.5 0 31 11.2 31 28z"
-                  fill="white" opacity="0.9"/>
-        </svg>
-
-        <!-- Logo -->
-        <div class="logo about-logo">
-            <img src="logomain.svg" alt="Red Moon Logo" width="137" height="92">
-        </div>
-
-        <!-- Back Arrow -->
-        <a href="index.html" class="back-arrow-about">
-            <svg width="60" height="20" viewBox="0 0 60 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M5 10L10 5L10 8L55 8L55 12L10 12L10 15L5 10Z" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round"/>
-            </svg>
-        </a>
-
-        <!-- About Content Container -->
-        <div class="about-content-container">
-            <!-- About Title -->
-            <h1 class="about-page-title">About Red Moon</h1>
-
-            <!-- About Description -->
-            <div class="about-description">
-                <p class="about-paragraph">We are a creative agency specializing in brand development, design strategy, and digital experiences.</p>
-                <p class="about-paragraph">Our mission is to help businesses create memorable brand identities that resonate with their audience and drive meaningful engagement.</p>
-                <p class="about-paragraph">With a team of passionate designers, strategists, and developers, we transform visions into reality through innovative solutions and compelling storytelling.</p>
+    <header class="nav" id="nav">
+        <div class="nav__inner grid">
+            <a href="javascript:history.back()" class="nav__back" aria-label="Go back">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M12 4L6 10l6 6"/>
+                </svg>
+            </a>
+            <a href="index.html" class="nav__logo">REDMOON</a>
+            <div class="nav__right">
+                <a href="projects.html" class="nav__link">Work</a>
+                <a href="about.html" class="nav__link">About</a>
+                <a href="contact.html" class="nav__link">Contact</a>
+                <button class="nav__menu-btn" id="menuBtn" aria-label="Open menu">
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
+        </div>
+    </header>
 
-            <!-- Values Section -->
-            <div class="values-section">
-                <h2 class="values-title">Our Values</h2>
-                <div class="values-grid">
-                    <div class="value-item">
-                        <h3>Creativity</h3>
-                        <p>Pushing boundaries with innovative design solutions</p>
+    <div class="menu-overlay" id="menuOverlay">
+        <div class="menu-overlay__inner">
+            <button class="menu-overlay__close" id="menuClose" aria-label="Close menu">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M15 5L5 15M5 5l10 10"/>
+                </svg>
+            </button>
+            <nav class="menu-overlay__nav">
+                <a href="projects.html">Work</a>
+                <a href="about.html">About</a>
+                <a href="process.html">Process</a>
+
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="menu-overlay__social">
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+                <a href="#">X</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="about-hero">
+        <div class="grid">
+            <h1 class="about-hero__title">A studio built for the craft of making things visible.</h1>
+            <p class="about-hero__text">Redmoon is a creative design and technology studio. We work with founders, teams, and brands who care about how their work looks, feels, and behaves in the world.</p>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-section__inner">
+            <span class="about-section__label">Our story</span>
+            <h2 class="about-section__title">From small beginnings to intentional work.</h2>
+            <div class="about-section__body">
+                <p>Redmoon began as a solo practice — late nights, obsessive attention to detail, and a belief that design should feel inevitable, not decorative. Over time, that practice grew into a studio with a small, sharp team and a reputation for work that holds up.</p>
+                <p>We do not chase trends. We build identities, interfaces, and experiences that are rooted in strategy and executed with care. Every project is a collaboration, and every detail matters.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" style="background: var(--off-white);">
+        <div class="about-section__inner">
+            <span class="about-section__label">What we do</span>
+            <h2 class="about-section__title">Brand, digital, and everything between.</h2>
+            <div class="about-section__body">
+                <p>We operate across the full creative stack — from naming and identity systems to product design and front-end engineering. Our work spans brand identity, web design, packaging, apparel, and digital product.</p>
+                <p>The common thread is restraint. We believe the best work is the simplest work that still says everything it needs to say.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-section__inner">
+            <span class="about-section__label">How we work</span>
+            <h2 class="about-section__title">Process as a product.</h2>
+            <div class="about-section__body">
+                <p>Every engagement starts with listening. We map the problem before we sketch a solution. Our process is iterative, transparent, and built around clear milestones — so you are never surprised, and always in control.</p>
+                <p>We work in small sprints, validate early, and refine until the work feels finished. Not perfect — finished. There is a difference.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-team">
+        <div class="about-team__inner">
+            <span class="about-team__label">The people</span>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-member__image">
+                        <img src="MYPROJECT/Graphicdesignworks/abbedddd-0dfc-4630-85cc-969c1c6c043a.webp" alt="Arjun V." loading="lazy">
                     </div>
-                    <div class="value-item">
-                        <h3>Quality</h3>
-                        <p>Delivering excellence in every project we undertake</p>
+                    <h3 class="team-member__name">Arjun V.</h3>
+                    <p class="team-member__role">Senior UI/UX Designer</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-member__image">
+                        <img src="MYPROJECT/Graphicdesignworks/banner.webp" alt="Meera K." loading="lazy">
                     </div>
-                    <div class="value-item">
-                        <h3>Partnership</h3>
-                        <p>Building lasting relationships with our clients</p>
+                    <h3 class="team-member__name">Meera K.</h3>
+                    <p class="team-member__role">Brand Designer</p>
+                </div>
+                <div class="team-member">
+                    <div class="team-member__image">
+                        <img src="MYPROJECT/CLOTHING DESIGN/REDMOON/atmantshirt.webp" alt="Studio" loading="lazy">
                     </div>
+                    <h3 class="team-member__name">The Studio</h3>
+                    <p class="team-member__role">Early 2026</p>
                 </div>
             </div>
         </div>
+    </section>
 
-    </div>
+    <footer class="footer" id="contact">
+        <div class="grid">
+            <div class="footer__top">
+                <div class="footer__logo">
+                    <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 5C20 5 12 12 12 20C12 28 20 35 20 35C20 35 28 28 28 20C28 12 20 5 20 5Z" fill="white" opacity="0.9"/>
+                        <path d="M5 20C5 20 12 12 20 12C28 12 35 20 35 20C35 20 28 28 20 28C12 28 5 20 5 20Z" fill="white" opacity="0.9"/>
+                    </svg>
+                </div>
+                <nav class="footer__nav">
+                    <a href="projects.html">Work</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="privacy.html">Privacy</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">X</a>
+                </nav>
+            </div>
+            <div class="footer__bottom">
+                <span>2026 Redmoon</span>
+                <a href="privacy.html">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <script src="gsap-animations.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>

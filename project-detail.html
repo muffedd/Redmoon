@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project detail — see the full case study, gallery, and process behind the work.">
+    <meta property="og:title" content="Project — Redmoon">
+    <meta property="og:description" content="See the full case study, gallery, and process behind the work.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M20 5C20 5 12 12 12 20C12 28 20 35 20 35C20 35 28 28 28 20C28 12 20 5 20 5Z' fill='%230B0B0A'/%3E%3C/svg%3E">
+    <title>Project — Redmoon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="nav" id="nav">
+        <div class="nav__inner grid">
+            <a href="javascript:history.back()" class="nav__back" aria-label="Go back">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M12 4L6 10l6 6"/>
+                </svg>
+            </a>
+            <a href="index.html" class="nav__logo">REDMOON</a>
+            <div class="nav__right">
+                <a href="projects.html" class="nav__link">Work</a>
+                <a href="about.html" class="nav__link">About</a>
+                <a href="contact.html" class="nav__link">Contact</a>
+                <button class="nav__menu-btn" id="menuBtn" aria-label="Open menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-overlay" id="menuOverlay">
+        <div class="menu-overlay__inner">
+            <button class="menu-overlay__close" id="menuClose" aria-label="Close menu">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M15 5L5 15M5 5l10 10"/>
+                </svg>
+            </button>
+            <nav class="menu-overlay__nav">
+                <a href="projects.html">Work</a>
+                <a href="about.html">About</a>
+                <a href="process.html">Process</a>
+
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="menu-overlay__social">
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+                <a href="#">X</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="detail-hero">
+        <div class="grid">
+            <a href="projects.html" class="detail-hero__back">
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M12 4L6 10l6 6"/>
+                </svg>
+                All work
+            </a>
+            <h1 class="detail-hero__title" id="detailTitle">Project</h1>
+            <span class="detail-hero__meta" id="detailMeta">Category</span>
+            <p class="detail-hero__desc" id="detailDesc">Description</p>
+        </div>
+    </section>
+
+    <section class="detail-case">
+        <div class="detail-case__inner">
+            <div class="detail-case__block">
+                <span class="detail-case__label">01 — Problem</span>
+                <h3 class="detail-case__title">Clarity under pressure.</h3>
+                <p class="detail-case__body" id="caseProblem">The client needed a digital presence that conveyed trust and security without feeling cold or corporate. The challenge was balancing technical credibility with human warmth.</p>
+            </div>
+            <div class="detail-case__block">
+                <span class="detail-case__label">02 — Approach</span>
+                <h3 class="detail-case__title">Restraint as strategy.</h3>
+                <p class="detail-case__body" id="caseApproach">We began with a thorough audit of the competitive landscape, then stripped away everything that did not serve the core message. Every element was tested for clarity.</p>
+            </div>
+            <div class="detail-case__block">
+                <span class="detail-case__label">03 — Solution</span>
+                <h3 class="detail-case__title">Calm, confident, complete.</h3>
+                <p class="detail-case__body" id="caseSolution">A refined visual system built on generous whitespace, a muted palette, and precise typography. The result feels inevitable — like it could not have been designed any other way.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="detail-gallery">
+        <div class="detail-gallery__inner" id="detailGallery">
+            <!-- Images injected by JS -->
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="grid">
+            <div class="footer__top">
+                <div class="footer__logo">
+                    <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 5C20 5 12 12 12 20C12 28 20 35 20 35C20 35 28 28 28 20C28 12 20 5 20 5Z" fill="white" opacity="0.9"/>
+                        <path d="M5 20C5 20 12 12 20 12C28 12 35 20 35 20C35 20 28 28 20 28C12 28 5 20 5 20Z" fill="white" opacity="0.9"/>
+                    </svg>
+                </div>
+                <nav class="footer__nav">
+                    <a href="projects.html">Work</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">X</a>
+                </nav>
+            </div>
+            <div class="footer__bottom">
+                <span>2026 Redmoon</span>
+                <a href="#">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    const projectData = {
+        'ausec': {
+            title: 'Ausec',
+            meta: 'Web Design / UI/UX',
+            desc: 'Website design for a security automation platform. Built with clarity and trust at its core.',
+            problem: 'The client needed a digital presence that conveyed trust and security without feeling cold or corporate. The challenge was balancing technical credibility with human warmth.',
+            approach: 'We began with a thorough audit of the competitive landscape, then stripped away everything that did not serve the core message. Every element was tested for clarity.',
+            solution: 'A refined visual system built on generous whitespace, a muted palette, and precise typography. The result feels inevitable — like it could not have been designed any other way.',
+            images: [
+                'MYPROJECT/WEBDESIGN/AUSEC/Screenshot 2026-04-30 065115.webp',
+                'MYPROJECT/WEBDESIGN/AUSEC/Screenshot 2026-04-30 065121.webp',
+                'MYPROJECT/WEBDESIGN/AUSEC/Screenshot 2026-04-30 065127.webp',
+                'MYPROJECT/WEBDESIGN/AUSEC/Screenshot 2026-04-30 065133.webp'
+            ]
+        },
+        'icpe': {
+            title: 'ICPE',
+            meta: 'Web Design / Platform',
+            desc: 'A full platform design for an industrial certification body. Complex data, made readable.',
+            problem: 'Industrial certification involves dense technical data, compliance workflows, and multi-stakeholder approvals. The existing platform was functional but intimidating.',
+            approach: 'We reorganized the information architecture around user mental models rather than internal departments. Every screen was stress-tested with actual users.',
+            solution: 'A calm, structured interface that guides users through complex workflows without overwhelm. Dense data is layered progressively — detail when you need it, clarity when you do not.',
+            images: [
+                'MYPROJECT/WEBDESIGN/ICPE/Screenshot 2026-04-30 064702.webp',
+                'MYPROJECT/WEBDESIGN/ICPE/Screenshot 2026-04-30 065251.webp',
+                'MYPROJECT/WEBDESIGN/ICPE/Screenshot 2026-04-30 065304.webp',
+                'MYPROJECT/WEBDESIGN/ICPE/Screenshot 2026-04-30 065314.webp',
+                'MYPROJECT/WEBDESIGN/ICPE/Screenshot 2026-04-30 065326.webp',
+                'MYPROJECT/WEBDESIGN/ICPE/Screenshot 2026-04-30 065334.webp'
+            ]
+        },
+        'resume-builder': {
+            title: 'Resume Builder',
+            meta: 'Web Design / Product',
+            desc: 'A tool for building resumes that actually get read. Clean typography, smart layout, zero clutter.',
+            problem: 'Most resume builders produce generic, bloated documents that fail to stand out in competitive hiring pipelines. Users needed something that felt personal, not templated.',
+            approach: 'We studied successful resumes across industries to identify patterns that recruiters actually respond to. Then we built those patterns into an effortless workflow.',
+            solution: 'A minimal editor with typographic intelligence — spacing, hierarchy, and structure that adapts to your content. The output feels handcrafted, not generated.',
+            images: [
+                'MYPROJECT/WEBDESIGN/RESUMEBUILDER/Screenshot 2026-04-30 064300.webp',
+                'MYPROJECT/WEBDESIGN/RESUMEBUILDER/Screenshot 2026-04-30 064340.webp',
+                'MYPROJECT/WEBDESIGN/RESUMEBUILDER/Screenshot 2026-04-30 064405.webp'
+            ]
+        },
+        'fittr': {
+            title: 'Fittr',
+            meta: 'Brand Identity',
+            desc: 'Brand identity system for a fitness startup — bold, energetic, and built to flex across every touchpoint.',
+            problem: 'A crowded fitness market meant Fittr needed to feel distinct on day one. The identity had to scale from app icon to billboard without losing punch.',
+            approach: 'We explored the tension between structure and movement — the geometry of a gym grid versus the fluidity of a workout in motion.',
+            solution: 'A bold, angular wordmark paired with a flexible pattern system. The identity adapts to every touchpoint while maintaining a singular, unmistakable voice.',
+            images: [
+                'MYPROJECT/BRAND IDENTITY/FITTR/fiitrlogo.webp',
+                'MYPROJECT/BRAND IDENTITY/FITTR/bdc73b6f-106f-4468-9950-35a8f310809c.webp'
+            ]
+        },
+        'lolee': {
+            title: 'Lolee',
+            meta: 'Brand Identity / Packaging',
+            desc: 'A chocolate brand identity that feels handmade and luxurious at once. From logo to bag to signage.',
+            problem: 'Lolee needed to stand out on crowded confectionery shelves while communicating small-batch quality and ethical sourcing.',
+            approach: 'We leaned into imperfection — hand-lettered textures, warm earth tones, and a visual language that feels crafted rather than manufactured.',
+            solution: 'A rich, tactile identity system that works across packaging, signage, and digital. Every touchpoint feels like it was made by someone who cares.',
+            images: [
+                'MYPROJECT/BRAND IDENTITY/LOLEE/brandlogololee.webp',
+                'MYPROJECT/BRAND IDENTITY/LOLEE/logomarklolee.webp',
+                'MYPROJECT/BRAND IDENTITY/LOLEE/chocolatebranding.webp',
+                'MYPROJECT/BRAND IDENTITY/LOLEE/loleebag.webp',
+                'MYPROJECT/BRAND IDENTITY/LOLEE/loleesignage.webp'
+            ]
+        },
+        'maccaw': {
+            title: 'Maccaw',
+            meta: 'Brand Identity / Fashion',
+            desc: 'A luxury fashion brand identity. Woven labels, storefronts, and fabric that tells a story.',
+            problem: 'Maccaw needed an identity that could hold its own in the luxury fashion space while feeling grounded and authentic rather than pretentious.',
+            approach: 'We studied heritage textile techniques and translated them into a modern visual language — patterns derived from weave structures, colors from natural dyes.',
+            solution: 'A sophisticated identity that lives beautifully on fabric, storefronts, and screens. Every application reinforces the brand’s commitment to craft.',
+            images: [
+                'MYPROJECT/BRAND IDENTITY/MACCAW/Woven_label_with_202604051047.webp',
+                'MYPROJECT/BRAND IDENTITY/MACCAW/Luxury_storefront_with_202604051053.webp',
+                'MYPROJECT/BRAND IDENTITY/MACCAW/Linen_fabric_with_202604051100.webp',
+                'MYPROJECT/BRAND IDENTITY/MACCAW/Hang_tag_with_202604051147.webp',
+                'MYPROJECT/BRAND IDENTITY/MACCAW/T-shirt_with_graphic_202604051246.webp'
+            ]
+        },
+        'mitti': {
+            title: 'Mitti',
+            meta: 'Brand Identity / Packaging',
+            desc: 'Complete brand world for an organic skincare line — earthy, honest, and beautifully restrained.',
+            problem: 'Mitti needed to feel authentic in a skincare market saturated with greenwashing. The identity had to reflect the brand\'s commitment to organic, locally sourced ingredients.',
+            approach: 'We drew inspiration from the earth itself — soil tones, hand-drawn botanical illustrations, and textures that feel like they came from the ground.',
+            solution: 'A warm, grounded identity that feels honest rather than aspirational. The packaging tells the story of where the ingredients come from, and the brand feels like a friend who happens to make great skincare.',
+            images: [
+                'MYPROJECT/mitti brand/ChatGPT Image Jan 11, 2026, 06_25_01 PM.webp',
+                'MYPROJECT/mitti brand/ChatGPT Image Jan 11, 2026, 07_16_28 PM.webp',
+                'MYPROJECT/mitti brand/Untitled Project.webp',
+                'MYPROJECT/mitti brand/Untitled Project - Artboard 2.webp',
+                'MYPROJECT/mitti brand/Untitled Project - Artboard 2 (2).webp',
+                'MYPROJECT/mitti brand/ChatGPT Image Jan 11, 2026, 07_54_11 PM_upscayl_2x_ultrasharp-4x.webp',
+                'MYPROJECT/mitti brand/ChatGPT Image Jan 11, 2026, 08_01_53 PM.webp',
+                'MYPROJECT/mitti brand/download (3).webp'
+            ]
+        },
+        'redmoon-cards': {
+            title: 'Redmoon Cards',
+            meta: 'Print Design',
+            desc: 'Premium printed collateral design — tactile, refined, and unmistakably ours.',
+            problem: 'We needed printed collateral that communicated our studio values before a word was read. The cards had to feel premium without being ostentatious.',
+            approach: 'We explored materiality — paper stock, embossing, foil, and letterpress — testing combinations until we found something that felt right in the hand.',
+            solution: 'A restrained, typographically confident card set. The paper does the talking: substantial weight, subtle texture, and a foil logomark that catches the light.',
+            images: [
+                'MYPROJECT/CARDS/card.webp',
+                'MYPROJECT/CARDS/redmoon.webp',
+                'MYPROJECT/CARDS/logomarklolee.webp',
+                'MYPROJECT/CARDS/Linen_fabric_with_202604051100.webp',
+                'MYPROJECT/CARDS/Screenshot 2026-04-30 065115.webp',
+                'MYPROJECT/CARDS/Screenshot 2026-04-30 064702.webp',
+                'MYPROJECT/CARDS/Screenshot 2026-04-30 064300.webp',
+                'MYPROJECT/CARDS/homescreen.webp',
+                'MYPROJECT/CARDS/cclimate1.webp',
+                'MYPROJECT/CARDS/steel1.webp'
+            ]
+        },
+        'redmoon-clothing': {
+            title: 'Redmoon Clothing',
+            meta: 'Apparel / Graphic Design',
+            desc: 'A collection of graphic tees and apparel designed under the Redmoon label. Each piece is a statement.',
+            problem: 'We wanted to create apparel that felt like wearable art — pieces that stood for something without shouting. The challenge was finding the line between bold and wearable.',
+            approach: 'Every design started with a single idea or phrase. We iterated across mockups, testing scale, placement, and color until each piece felt inevitable.',
+            solution: 'A capsule collection of graphic tees and apparel that translate the Redmoon philosophy into something you can wear. Each design is intentional, restrained, and unmistakably ours.',
+            images: [
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/atmantshirt.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/ATMAN.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/Front.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/Front.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/FRONTBREK.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/tranquiltshirt.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/banger.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/liberate.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/redmoon.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/cyanotype.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/tshiirt.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/ChatGPT Image Sep 24, 2025, 06_06_42 AM.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/Generated Image September 24, 2025 - 6_09AM_upscayl_2x_ultramix-balanced-4x.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/Generated Image September 24, 2025 - 6_14AM_upscayl_3x_ultramix-balanced-4x.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/Generated Image September 24, 2025 - 5_20AM.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/Generated Image September 24, 2025 - 5_15AM(1).webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/Tshirt Mockup 5.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/T-Shirt Mockup (1).webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/Generated Image September 23, 2025 - 8_24PM_upscayl_2x_ultramix-balanced-4x.webp',
+                'MYPROJECT/CLOTHING DESIGN/REDMOON/Generated Image September 23, 2025 - 8_26PM.webp'
+            ]
+        },
+        'automation-website': {
+            title: 'Automation Website',
+            meta: 'Web Design / Automation',
+            desc: 'Website visuals and interface direction from the AUTOMATIOWEBSITE folder.',
+            problem: 'Automation products need to explain complex value quickly without becoming cold or crowded.',
+            approach: 'We used sharp visual contrast, direct composition, and simple page hierarchy to keep the concept readable.',
+            solution: 'A compact web design direction that makes automation feel practical, modern, and easy to scan.',
+            images: [
+                'MYPROJECT/WEBDESIGN/AUTOMATIOWEBSITE/download.webp',
+                'MYPROJECT/WEBDESIGN/AUTOMATIOWEBSITE/b35168eb37ceefef3092e7f86d06aaa3.webp'
+            ]
+        },
+        'mockups': {
+            title: 'Mockups',
+            meta: 'Web Design / Mockups',
+            desc: 'A collection of digital mockups and visual product studies from the MOCKUPS folder.',
+            problem: 'Early product ideas need believable context before they can be judged as real experiences.',
+            approach: 'We framed each concept as a polished surface, testing color, scale, and visual hierarchy.',
+            solution: 'A focused mockup collection that helps ideas feel tangible before final production.',
+            images: [
+                'MYPROJECT/WEBDESIGN/MOCKUPS/ChatGPT Image Apr 21, 2026, 09_59_20 PM.webp',
+                'MYPROJECT/WEBDESIGN/MOCKUPS/ChatGPT Image Apr 21, 2026, 09_55_22 PM.webp',
+                'MYPROJECT/WEBDESIGN/MOCKUPS/1ca13a29-45ca-428c-a153-2e345975857d.webp'
+            ]
+        },
+        'graphic-design-works': {
+            title: 'Graphic Design Works',
+            meta: 'Graphic Design / Posters',
+            desc: 'Posters, packaging, banners, and graphic experiments from the Graphicdesignworks folder.',
+            problem: 'A broad graphic design set needs variety without feeling disconnected.',
+            approach: 'We organized the work around bold composition, clear focal points, and material variety.',
+            solution: 'A mixed visual gallery covering posters, banners, packaging, and campaign-style artwork.',
+            images: [
+                'MYPROJECT/Graphicdesignworks/posterofpride.webp',
+                'MYPROJECT/Graphicdesignworks/banner.webp',
+                'MYPROJECT/Graphicdesignworks/card.webp',
+                'MYPROJECT/Graphicdesignworks/Complan_sachet_design_202603251706.webp',
+                'MYPROJECT/Graphicdesignworks/ChatGPT Image Apr 24, 2026, 03_53_56 PM.webp',
+                'MYPROJECT/Graphicdesignworks/abbedddd-0dfc-4630-85cc-969c1c6c043a.webp',
+                'MYPROJECT/Graphicdesignworks/HDgbZ8ua8AAtvlZ.webp',
+                'MYPROJECT/Graphicdesignworks/HDgbZ8rbAAAaVrw.webp',
+                'MYPROJECT/Graphicdesignworks/HDgbZ8nbIAAkoCR.webp',
+                'MYPROJECT/Graphicdesignworks/HDgbZ83aAAAYWmG.webp'
+            ]
+        },
+        'miscellaneous': {
+            title: 'Miscellaneous',
+            meta: 'Design / Exploration',
+            desc: 'A small mixed set of screens and visual studies from the MISCELLANEOUS folder.',
+            problem: 'Not every design experiment fits a single category, but useful visual directions still deserve a place.',
+            approach: 'We grouped the strongest miscellaneous visuals into a simple gallery format.',
+            solution: 'A compact archive of exploratory work that keeps the broader portfolio visible.',
+            images: [
+                'MYPROJECT/MISCELLANEOUS/homescreen.webp',
+                'MYPROJECT/MISCELLANEOUS/cclimate1.webp',
+                'MYPROJECT/MISCELLANEOUS/steel1.webp'
+            ]
+        },
+        'logo-works': {
+            title: 'Logo Works',
+            meta: 'Logo Design / Identity',
+            desc: 'A collection of logomarks and wordmarks crafted for various brands and ventures.',
+            problem: 'Each brand needed a mark that could stand alone and scale across every application — from app icon to storefront signage.',
+            approach: 'We start every logo with the brand’s core promise. What do they do? Who do they serve? What do they believe? The answer shapes the mark.',
+            solution: 'A diverse set of logomarks, each rooted in the brand it represents. No two are alike because no two brands are alike.',
+            images: [
+                'MYPROJECT/LOGO/ChatGPT Image Apr 24, 2026, 03_02_25 PM (4).webp',
+                'MYPROJECT/LOGO/ChatGPT Image Apr 24, 2026, 03_02_25 PM (3).webp',
+                'MYPROJECT/LOGO/ChatGPT Image Apr 24, 2026, 03_02_24 PM (2).webp',
+                'MYPROJECT/LOGO/ChatGPT Image Apr 24, 2026, 03_02_24 PM (1).webp'
+            ]
+        }
+    };
+
+    function getParam(name) {
+        const params = new URLSearchParams(window.location.search);
+        return params.get(name);
+    }
+
+    function initDetail() {
+        const key = getParam('project') || 'lolee';
+        const data = projectData[key];
+
+        if (!data) {
+            document.getElementById('detailTitle').textContent = 'Project not found';
+            return;
+        }
+
+        document.title = data.title + ' — Redmoon';
+        document.getElementById('detailTitle').textContent = data.title;
+        document.getElementById('detailMeta').textContent = data.meta;
+        document.getElementById('detailDesc').textContent = data.desc;
+
+        if (data.problem) document.getElementById('caseProblem').textContent = data.problem;
+        if (data.approach) document.getElementById('caseApproach').textContent = data.approach;
+        if (data.solution) document.getElementById('caseSolution').textContent = data.solution;
+
+        const gallery = document.getElementById('detailGallery');
+        data.images.forEach((src, i) => {
+            const div = document.createElement('div');
+            div.className = 'detail-gallery__item' + (i === 0 ? ' detail-gallery__item--wide' : '');
+            const skeleton = document.createElement('div');
+            skeleton.className = 'skeleton';
+            skeleton.style.cssText = 'position:absolute;inset:0;z-index:1;';
+            const img = document.createElement('img');
+            img.src = src;
+            img.alt = data.title + ' ' + (i + 1);
+            img.loading = 'lazy';
+            img.style.opacity = '0';
+            img.style.transition = 'opacity 0.6s var(--ease-out-expo)';
+            img.onload = () => { img.style.opacity = '1'; skeleton.style.opacity = '0'; setTimeout(() => skeleton.remove(), 600); };
+            div.appendChild(skeleton);
+            div.appendChild(img);
+            gallery.appendChild(div);
+        });
+    }
+
+    initDetail();
+
+    /* Lightbox for gallery images */
+    const lightbox = document.createElement('div');
+    lightbox.className = 'lightbox';
+    lightbox.innerHTML = `
+        <div class="lightbox__backdrop"></div>
+        <button class="lightbox__close" aria-label="Close">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M18 6L6 18M6 6l12 12"/>
+            </svg>
+        </button>
+        <img class="lightbox__img" src="" alt="">
+        <span class="lightbox__hint">Click anywhere to close</span>
+    `;
+    document.body.appendChild(lightbox);
+
+    const lightboxImg = lightbox.querySelector('.lightbox__img');
+
+    function openLightbox(src, alt) {
+        lightboxImg.src = src;
+        lightboxImg.alt = alt;
+        lightbox.classList.add('lightbox--open');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+        lightbox.classList.remove('lightbox--open');
+        document.body.style.overflow = '';
+    }
+
+    // Attach click handlers to gallery items
+    document.querySelectorAll('.detail-gallery__item img').forEach(img => {
+        img.style.cursor = 'zoom-in';
+        img.parentElement.addEventListener('click', () => {
+            openLightbox(img.src, img.alt);
+        });
+    });
+
+    lightbox.querySelector('.lightbox__close').addEventListener('click', closeLightbox);
+    lightbox.querySelector('.lightbox__backdrop').addEventListener('click', closeLightbox);
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && lightbox.classList.contains('lightbox--open')) closeLightbox();
+    });
+
+    /* Reveal classes for detail page */
+    document.querySelectorAll('.detail-hero__back, .detail-hero__title, .detail-hero__meta, .detail-hero__desc').forEach((el, i) => {
+        el.classList.add('reveal-item');
+        el.style.setProperty('--reveal-delay', `${i * 80}ms`);
+    });
+
+    document.querySelectorAll('.detail-case__block').forEach((el, i) => {
+        el.classList.add('reveal-item');
+        el.style.setProperty('--reveal-delay', `${i * 60}ms`);
+    });
+
+    document.querySelectorAll('.detail-gallery__item').forEach((el, i) => {
+        el.classList.add('reveal-item');
+        el.style.setProperty('--reveal-delay', `${i * 55}ms`);
+    });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <script src="gsap-animations.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
